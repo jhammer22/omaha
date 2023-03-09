@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Navbar() {
     return (
       <nav className="orange darken-2" role="navigation">
@@ -49,3 +51,4 @@ function Navbar() {
     );
   }
   
+  export default Navbar
