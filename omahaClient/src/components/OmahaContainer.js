@@ -1,23 +1,19 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
+import Section from '../components/Section';
 import ScoreTable from '../components/ScoreTable';
 import Container from './OmahaContainer.js';
 
 function OmahaContainer(props) {
 
   return (
-    // <div className={`container${props.fluid ? '-fluid' : ''}`}>
-    //   {props.children}
-    // </div>
-
     <> 
     <Navbar />
+
+    <Section />
     <ScoreTable />
-    {/* <h1>hello</h1> */}
     </>
   );
-
-  
 }
 
 export default OmahaContainer;
