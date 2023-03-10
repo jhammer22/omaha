@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
+import ScoreTable from '../components/ScoreTable';
 import Container from './OmahaContainer.js';
 
 function OmahaContainer(props) {
@@ -11,6 +12,7 @@ function OmahaContainer(props) {
 
     <> 
     <Navbar />
+    <ScoreTable />
     {/* <h1>hello</h1> */}
     </>
   );
