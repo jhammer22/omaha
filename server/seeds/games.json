@@ -24478,895 +24478,895 @@
    "id": 401437030,
    "home_id": 2628,
    "away_id": 2306
- },
- {
-   "season": 2023,
-   "away_team": "Missouri State",
-   "away_points": null,
-   "home_team": "Kansas",
-   "home_points": null,
-   "id": 401525815,
-   "home_id": 2305,
-   "away_id": 2623
- },
- {
-   "season": 2023,
-   "away_team": "Colorado",
-   "away_points": null,
-   "home_team": "TCU",
-   "home_points": null,
-   "id": 401523994,
-   "home_id": 2628,
-   "away_id": 38
- },
- {
-   "season": 2023,
-   "away_team": "Northern Iowa",
-   "away_points": null,
-   "home_team": "Iowa State",
-   "home_points": null,
-   "id": 401525820,
-   "home_id": 66,
-   "away_id": 2460
- },
- {
-   "season": 2023,
-   "away_team": "Southeast Missouri State",
-   "away_points": null,
-   "home_team": "Kansas State",
-   "home_points": null,
-   "id": 401525821,
-   "home_id": 2306,
-   "away_id": 2546
- },
- {
-   "season": 2023,
-   "away_team": "Arkansas State",
-   "away_points": null,
-   "home_team": "Oklahoma",
-   "home_points": null,
-   "id": 401525822,
-   "home_id": 201,
-   "away_id": 2032
- },
- {
-   "season": 2023,
-   "away_team": "Texas State",
-   "away_points": null,
-   "home_team": "Baylor",
-   "home_points": null,
-   "id": 401525817,
-   "home_id": 239,
-   "away_id": 326
- },
- {
-   "season": 2023,
-   "away_team": "Central Arkansas",
-   "away_points": null,
-   "home_team": "Oklahoma State",
-   "home_points": null,
-   "id": 401525823,
-   "home_id": 197,
-   "away_id": 2110
- },
- {
-   "season": 2023,
-   "away_team": "Texas Tech",
-   "away_points": null,
-   "home_team": "Wyoming",
-   "home_points": null,
-   "id": 401525825,
-   "home_id": 2751,
-   "away_id": 2641
- },
- {
-   "season": 2023,
-   "away_team": "Rice",
-   "away_points": null,
-   "home_team": "Texas",
-   "home_points": null,
-   "id": 401525824,
-   "home_id": 251,
-   "away_id": 242
- },
- {
-   "season": 2023,
-   "away_team": "West Virginia",
-   "away_points": null,
-   "home_team": "Penn State",
-   "home_points": null,
-   "id": 401520169,
-   "home_id": 213,
-   "away_id": 277
- },
- {
-   "season": 2023,
-   "away_team": "Oregon",
-   "away_points": null,
-   "home_team": "Texas Tech",
-   "home_points": null,
-   "id": 401524002,
-   "home_id": 2641,
-   "away_id": 2483
- },
- {
-   "season": 2023,
-   "away_team": "Troy",
-   "away_points": null,
-   "home_team": "Kansas State",
-   "home_points": null,
-   "id": 401525829,
-   "home_id": 2306,
-   "away_id": 2653
- },
- {
-   "season": 2023,
-   "away_team": "Nicholls",
-   "away_points": null,
-   "home_team": "TCU",
-   "home_points": null,
-   "id": 401525832,
-   "home_id": 2628,
-   "away_id": 2447
- },
- {
-   "season": 2023,
-   "away_team": "Duquesne",
-   "away_points": null,
-   "home_team": "West Virginia",
-   "home_points": null,
-   "id": 401525833,
-   "home_id": 277,
-   "away_id": 2184
- },
- {
-   "season": 2023,
-   "away_team": "Utah",
-   "away_points": null,
-   "home_team": "Baylor",
-   "home_points": null,
-   "id": 401523999,
-   "home_id": 239,
-   "away_id": 254
- },
- {
-   "season": 2023,
-   "away_team": "SMU",
-   "away_points": null,
-   "home_team": "Oklahoma",
-   "home_points": null,
-   "id": 401525830,
-   "home_id": 201,
-   "away_id": 2567
- },
- {
-   "season": 2023,
-   "away_team": "Oklahoma State",
-   "away_points": null,
-   "home_team": "Arizona State",
-   "home_points": null,
-   "id": 401523998,
-   "home_id": 9,
-   "away_id": 197
- },
- {
-   "season": 2023,
-   "away_team": "Texas",
-   "away_points": null,
-   "home_team": "Alabama",
-   "home_points": null,
-   "id": 401520183,
-   "home_id": 333,
-   "away_id": 251
- },
- {
-   "season": 2023,
-   "away_team": "Iowa",
-   "away_points": null,
-   "home_team": "Iowa State",
-   "home_points": null,
-   "id": 401520194,
-   "home_id": 66,
-   "away_id": 2294
- },
- {
-   "season": 2023,
-   "away_team": "Illinois",
-   "away_points": null,
-   "home_team": "Kansas",
-   "home_points": null,
-   "id": 401520195,
-   "home_id": 2305,
-   "away_id": 356
- },
- {
-   "season": 2023,
-   "away_team": "TCU",
-   "away_points": null,
-   "home_team": "Houston",
-   "home_points": null,
-   "id": 401525836,
-   "home_id": 248,
-   "away_id": 2628
- },
- {
-   "season": 2023,
-   "away_team": "Iowa State",
-   "away_points": null,
-   "home_team": "Ohio",
-   "home_points": null,
-   "id": 401525838,
-   "home_id": 195,
-   "away_id": 66
- },
- {
-   "season": 2023,
-   "away_team": "Long Island University",
-   "away_points": null,
-   "home_team": "Baylor",
-   "home_points": null,
-   "id": 401525834,
-   "home_id": 239,
-   "away_id": 112358
- },
- {
-   "season": 2023,
-   "away_team": "South Alabama",
-   "away_points": null,
-   "home_team": "Oklahoma State",
-   "home_points": null,
-   "id": 401525839,
-   "home_id": 197,
-   "away_id": 6
- },
- {
-   "season": 2023,
-   "away_team": "Oklahoma",
-   "away_points": null,
-   "home_team": "Tulsa",
-   "home_points": null,
-   "id": 401525842,
-   "home_id": 202,
-   "away_id": 201
- },
- {
-   "season": 2023,
-   "away_team": "Tarleton State",
-   "away_points": null,
-   "home_team": "Texas Tech",
-   "home_points": null,
-   "id": 401525841,
-   "home_id": 2641,
-   "away_id": 2627
- },
- {
-   "season": 2023,
-   "away_team": "Wyoming",
-   "away_points": null,
-   "home_team": "Texas",
-   "home_points": null,
-   "id": 401525840,
-   "home_id": 251,
-   "away_id": 2751
- },
- {
-   "season": 2023,
-   "away_team": "Pittsburgh",
-   "away_points": null,
-   "home_team": "West Virginia",
-   "home_points": null,
-   "id": 401525503,
-   "home_id": 277,
-   "away_id": 221
- },
- {
-   "season": 2023,
-   "away_team": "Kansas",
-   "away_points": null,
-   "home_team": "Nevada",
-   "home_points": null,
-   "id": 401525837,
-   "home_id": 2440,
-   "away_id": 2305
- },
- {
-   "season": 2023,
-   "away_team": "Kansas State",
-   "away_points": null,
-   "home_team": "Missouri",
-   "home_points": null,
-   "id": 401520236,
-   "home_id": 142,
-   "away_id": 2306
- },
- {
-   "season": 2023,
-   "away_team": "Texas Tech",
-   "away_points": null,
-   "home_team": "West Virginia",
-   "home_points": null,
-   "id": 401525850,
-   "home_id": 277,
-   "away_id": 2641
- },
- {
-   "season": 2023,
-   "away_team": "Oklahoma State",
-   "away_points": null,
-   "home_team": "Iowa State",
-   "home_points": null,
-   "id": 401525846,
-   "home_id": 66,
-   "away_id": 197
- },
- {
-   "season": 2023,
-   "away_team": "Oklahoma",
-   "away_points": null,
-   "home_team": "Cincinnati",
-   "home_points": null,
-   "id": 401525845,
-   "home_id": 2132,
-   "away_id": 201
- },
- {
-   "season": 2023,
-   "away_team": "Texas",
-   "away_points": null,
-   "home_team": "Baylor",
-   "home_points": null,
-   "id": 401525844,
-   "home_id": 239,
-   "away_id": 251
- },
- {
-   "season": 2023,
-   "away_team": "BYU",
-   "away_points": null,
-   "home_team": "Kansas",
-   "home_points": null,
-   "id": 401525847,
-   "home_id": 2305,
-   "away_id": 252
- },
- {
-   "season": 2023,
-   "away_team": "UCF",
-   "away_points": null,
-   "home_team": "Kansas State",
-   "home_points": null,
-   "id": 401525848,
-   "home_id": 2306,
-   "away_id": 2116
- },
- {
-   "season": 2023,
-   "away_team": "SMU",
-   "away_points": null,
-   "home_team": "TCU",
-   "home_points": null,
-   "id": 401525849,
-   "home_id": 2628,
-   "away_id": 2567
- },
- {
-   "season": 2023,
-   "away_team": "Baylor",
-   "away_points": null,
-   "home_team": "UCF",
-   "home_points": null,
-   "id": 401525856,
-   "home_id": 2116,
-   "away_id": 239
- },
- {
-   "season": 2023,
-   "away_team": "Houston",
-   "away_points": null,
-   "home_team": "Texas Tech",
-   "home_points": null,
-   "id": 401525855,
-   "home_id": 2641,
-   "away_id": 248
- },
- {
-   "season": 2023,
-   "away_team": "West Virginia",
-   "away_points": null,
-   "home_team": "TCU",
-   "home_points": null,
-   "id": 401525853,
-   "home_id": 2628,
-   "away_id": 277
- },
- {
-   "season": 2023,
-   "away_team": "Kansas",
-   "away_points": null,
-   "home_team": "Texas",
-   "home_points": null,
-   "id": 401525854,
-   "home_id": 251,
-   "away_id": 2305
- },
- {
-   "season": 2023,
-   "away_team": "Iowa State",
-   "away_points": null,
-   "home_team": "Oklahoma",
-   "home_points": null,
-   "id": 401525852,
-   "home_id": 201,
-   "away_id": 66
- },
- {
-   "season": 2023,
-   "away_team": "Kansas State",
-   "away_points": null,
-   "home_team": "Oklahoma State",
-   "home_points": null,
-   "id": 401525857,
-   "home_id": 197,
-   "away_id": 2306
- },
- {
-   "season": 2023,
-   "away_team": "TCU",
-   "away_points": null,
-   "home_team": "Iowa State",
-   "home_points": null,
-   "id": 401525859,
-   "home_id": 66,
-   "away_id": 2628
- },
- {
-   "season": 2023,
-   "away_team": "Texas Tech",
-   "away_points": null,
-   "home_team": "Baylor",
-   "home_points": null,
-   "id": 401525858,
-   "home_id": 239,
-   "away_id": 2641
- },
- {
-   "season": 2023,
-   "away_team": "Texas",
-   "away_points": null,
-   "home_team": "Oklahoma",
-   "home_points": null,
-   "id": 401525861,
-   "home_id": 201,
-   "away_id": 251
- },
- {
-   "season": 2023,
-   "away_team": "UCF",
-   "away_points": null,
-   "home_team": "Kansas",
-   "home_points": null,
-   "id": 401525860,
-   "home_id": 2305,
-   "away_id": 2116
- },
- {
-   "season": 2023,
-   "away_team": "West Virginia",
-   "away_points": null,
-   "home_team": "Houston",
-   "home_points": null,
-   "id": 401525862,
-   "home_id": 248,
-   "away_id": 277
- },
- {
-   "season": 2023,
-   "away_team": "BYU",
-   "away_points": null,
-   "home_team": "TCU",
-   "home_points": null,
-   "id": 401525865,
-   "home_id": 2628,
-   "away_id": 252
- },
- {
-   "season": 2023,
-   "away_team": "Kansas",
-   "away_points": null,
-   "home_team": "Oklahoma State",
-   "home_points": null,
-   "id": 401525864,
-   "home_id": 197,
-   "away_id": 2305
- },
- {
-   "season": 2023,
-   "away_team": "Iowa State",
-   "away_points": null,
-   "home_team": "Cincinnati",
-   "home_points": null,
-   "id": 401525863,
-   "home_id": 2132,
-   "away_id": 66
- },
- {
-   "season": 2023,
-   "away_team": "Kansas State",
-   "away_points": null,
-   "home_team": "Texas Tech",
-   "home_points": null,
-   "id": 401525866,
-   "home_id": 2641,
-   "away_id": 2306
- },
- {
-   "season": 2023,
-   "away_team": "Baylor",
-   "away_points": null,
-   "home_team": "Cincinnati",
-   "home_points": null,
-   "id": 401525868,
-   "home_id": 2132,
-   "away_id": 239
- },
- {
-   "season": 2023,
-   "away_team": "Texas Tech",
-   "away_points": null,
-   "home_team": "BYU",
-   "home_points": null,
-   "id": 401525867,
-   "home_id": 252,
-   "away_id": 2641
- },
- {
-   "season": 2023,
-   "away_team": "TCU",
-   "away_points": null,
-   "home_team": "Kansas State",
-   "home_points": null,
-   "id": 401525870,
-   "home_id": 2306,
-   "away_id": 2628
- },
- {
-   "season": 2023,
-   "away_team": "Texas",
-   "away_points": null,
-   "home_team": "Houston",
-   "home_points": null,
-   "id": 401525869,
-   "home_id": 248,
-   "away_id": 251
- },
- {
-   "season": 2023,
-   "away_team": "UCF",
-   "away_points": null,
-   "home_team": "Oklahoma",
-   "home_points": null,
-   "id": 401525871,
-   "home_id": 201,
-   "away_id": 2116
- },
- {
-   "season": 2023,
-   "away_team": "Oklahoma State",
-   "away_points": null,
-   "home_team": "West Virginia",
-   "home_points": null,
-   "id": 401525872,
-   "home_id": 277,
-   "away_id": 197
- },
- {
-   "season": 2023,
-   "away_team": "Cincinnati",
-   "away_points": null,
-   "home_team": "Oklahoma State",
-   "home_points": null,
-   "id": 401525876,
-   "home_id": 197,
-   "away_id": 2132
- },
- {
-   "season": 2023,
-   "away_team": "BYU",
-   "away_points": null,
-   "home_team": "Texas",
-   "home_points": null,
-   "id": 401525877,
-   "home_id": 251,
-   "away_id": 252
- },
- {
-   "season": 2023,
-   "away_team": "Houston",
-   "away_points": null,
-   "home_team": "Kansas State",
-   "home_points": null,
-   "id": 401525875,
-   "home_id": 2306,
-   "away_id": 248
- },
- {
-   "season": 2023,
-   "away_team": "West Virginia",
-   "away_points": null,
-   "home_team": "UCF",
-   "home_points": null,
-   "id": 401525878,
-   "home_id": 2116,
-   "away_id": 277
- },
- {
-   "season": 2023,
-   "away_team": "Oklahoma",
-   "away_points": null,
-   "home_team": "Kansas",
-   "home_points": null,
-   "id": 401525874,
-   "home_id": 2305,
-   "away_id": 201
- },
- {
-   "season": 2023,
-   "away_team": "Iowa State",
-   "away_points": null,
-   "home_team": "Baylor",
-   "home_points": null,
-   "id": 401525873,
-   "home_id": 239,
-   "away_id": 66
- },
- {
-   "season": 2023,
-   "away_team": "TCU",
-   "away_points": null,
-   "home_team": "Texas Tech",
-   "home_points": null,
-   "id": 401525879,
-   "home_id": 2641,
-   "away_id": 2628
- },
- {
-   "season": 2023,
-   "away_team": "Oklahoma",
-   "away_points": null,
-   "home_team": "Oklahoma State",
-   "home_points": null,
-   "id": 401525883,
-   "home_id": 197,
-   "away_id": 201
- },
- {
-   "season": 2023,
-   "away_team": "Houston",
-   "away_points": null,
-   "home_team": "Baylor",
-   "home_points": null,
-   "id": 401525880,
-   "home_id": 239,
-   "away_id": 248
- },
- {
-   "season": 2023,
-   "away_team": "Kansas",
-   "away_points": null,
-   "home_team": "Iowa State",
-   "home_points": null,
-   "id": 401525882,
-   "home_id": 66,
-   "away_id": 2305
- },
- {
-   "season": 2023,
-   "away_team": "BYU",
-   "away_points": null,
-   "home_team": "West Virginia",
-   "home_points": null,
-   "id": 401525885,
-   "home_id": 277,
-   "away_id": 252
- },
- {
-   "season": 2023,
-   "away_team": "Kansas State",
-   "away_points": null,
-   "home_team": "Texas",
-   "home_points": null,
-   "id": 401525884,
-   "home_id": 251,
-   "away_id": 2306
- },
- {
-   "season": 2023,
-   "away_team": "West Virginia",
-   "away_points": null,
-   "home_team": "Oklahoma",
-   "home_points": null,
-   "id": 401525890,
-   "home_id": 201,
-   "away_id": 277
- },
- {
-   "season": 2023,
-   "away_team": "Texas Tech",
-   "away_points": null,
-   "home_team": "Kansas",
-   "home_points": null,
-   "id": 401525888,
-   "home_id": 2305,
-   "away_id": 2641
- },
- {
-   "season": 2023,
-   "away_team": "Oklahoma State",
-   "away_points": null,
-   "home_team": "UCF",
-   "home_points": null,
-   "id": 401525892,
-   "home_id": 2116,
-   "away_id": 197
- },
- {
-   "season": 2023,
-   "away_team": "Baylor",
-   "away_points": null,
-   "home_team": "Kansas State",
-   "home_points": null,
-   "id": 401525889,
-   "home_id": 2306,
-   "away_id": 239
- },
- {
-   "season": 2023,
-   "away_team": "Iowa State",
-   "away_points": null,
-   "home_team": "BYU",
-   "home_points": null,
-   "id": 401525886,
-   "home_id": 252,
-   "away_id": 66
- },
- {
-   "season": 2023,
-   "away_team": "Texas",
-   "away_points": null,
-   "home_team": "TCU",
-   "home_points": null,
-   "id": 401525891,
-   "home_id": 2628,
-   "away_id": 251
- },
- {
-   "season": 2023,
-   "away_team": "Oklahoma",
-   "away_points": null,
-   "home_team": "BYU",
-   "home_points": null,
-   "id": 401525893,
-   "home_id": 252,
-   "away_id": 201
- },
- {
-   "season": 2023,
-   "away_team": "Texas",
-   "away_points": null,
-   "home_team": "Iowa State",
-   "home_points": null,
-   "id": 401525895,
-   "home_id": 66,
-   "away_id": 251
- },
- {
-   "season": 2023,
-   "away_team": "UCF",
-   "away_points": null,
-   "home_team": "Texas Tech",
-   "home_points": null,
-   "id": 401525898,
-   "home_id": 2641,
-   "away_id": 2116
- },
- {
-   "season": 2023,
-   "away_team": "Oklahoma State",
-   "away_points": null,
-   "home_team": "Houston",
-   "home_points": null,
-   "id": 401525894,
-   "home_id": 248,
-   "away_id": 197
- },
- {
-   "season": 2023,
-   "away_team": "Cincinnati",
-   "away_points": null,
-   "home_team": "West Virginia",
-   "home_points": null,
-   "id": 401525899,
-   "home_id": 277,
-   "away_id": 2132
- },
- {
-   "season": 2023,
-   "away_team": "Baylor",
-   "away_points": null,
-   "home_team": "TCU",
-   "home_points": null,
-   "id": 401525897,
-   "home_id": 2628,
-   "away_id": 239
- },
- {
-   "season": 2023,
-   "away_team": "Kansas State",
-   "away_points": null,
-   "home_team": "Kansas",
-   "home_points": null,
-   "id": 401525896,
-   "home_id": 2305,
-   "away_id": 2306
- },
- {
-   "season": 2023,
-   "away_team": "TCU",
-   "away_points": null,
-   "home_team": "Oklahoma",
-   "home_points": null,
-   "id": 401525900,
-   "home_id": 201,
-   "away_id": 2628
- },
- {
-   "season": 2023,
-   "away_team": "Texas Tech",
-   "away_points": null,
-   "home_team": "Texas",
-   "home_points": null,
-   "id": 401525901,
-   "home_id": 251,
-   "away_id": 2641
- },
- {
-   "season": 2023,
-   "away_team": "Iowa State",
-   "away_points": null,
-   "home_team": "Kansas State",
-   "home_points": null,
-   "id": 401525904,
-   "home_id": 2306,
-   "away_id": 66
- },
- {
-   "season": 2023,
-   "away_team": "Kansas",
-   "away_points": null,
-   "home_team": "Cincinnati",
-   "home_points": null,
-   "id": 401525903,
-   "home_id": 2132,
-   "away_id": 2305
- },
- {
-   "season": 2023,
-   "away_team": "West Virginia",
-   "away_points": null,
-   "home_team": "Baylor",
-   "home_points": null,
-   "id": 401525902,
-   "home_id": 239,
-   "away_id": 277
- },
- {
-   "season": 2023,
-   "away_team": "BYU",
-   "away_points": null,
-   "home_team": "Oklahoma State",
-   "home_points": null,
-   "id": 401525905,
-   "home_id": 197,
-   "away_id": 252
- }
-]
+ }];
+//  {
+//    "season": 2023,
+//    "away_team": "Missouri State",
+//    "away_points": null,
+//    "home_team": "Kansas",
+//    "home_points": null,
+//    "id": 401525815,
+//    "home_id": 2305,
+//    "away_id": 2623
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Colorado",
+//    "away_points": null,
+//    "home_team": "TCU",
+//    "home_points": null,
+//    "id": 401523994,
+//    "home_id": 2628,
+//    "away_id": 38
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Northern Iowa",
+//    "away_points": null,
+//    "home_team": "Iowa State",
+//    "home_points": null,
+//    "id": 401525820,
+//    "home_id": 66,
+//    "away_id": 2460
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Southeast Missouri State",
+//    "away_points": null,
+//    "home_team": "Kansas State",
+//    "home_points": null,
+//    "id": 401525821,
+//    "home_id": 2306,
+//    "away_id": 2546
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Arkansas State",
+//    "away_points": null,
+//    "home_team": "Oklahoma",
+//    "home_points": null,
+//    "id": 401525822,
+//    "home_id": 201,
+//    "away_id": 2032
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Texas State",
+//    "away_points": null,
+//    "home_team": "Baylor",
+//    "home_points": null,
+//    "id": 401525817,
+//    "home_id": 239,
+//    "away_id": 326
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Central Arkansas",
+//    "away_points": null,
+//    "home_team": "Oklahoma State",
+//    "home_points": null,
+//    "id": 401525823,
+//    "home_id": 197,
+//    "away_id": 2110
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Texas Tech",
+//    "away_points": null,
+//    "home_team": "Wyoming",
+//    "home_points": null,
+//    "id": 401525825,
+//    "home_id": 2751,
+//    "away_id": 2641
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Rice",
+//    "away_points": null,
+//    "home_team": "Texas",
+//    "home_points": null,
+//    "id": 401525824,
+//    "home_id": 251,
+//    "away_id": 242
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "West Virginia",
+//    "away_points": null,
+//    "home_team": "Penn State",
+//    "home_points": null,
+//    "id": 401520169,
+//    "home_id": 213,
+//    "away_id": 277
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Oregon",
+//    "away_points": null,
+//    "home_team": "Texas Tech",
+//    "home_points": null,
+//    "id": 401524002,
+//    "home_id": 2641,
+//    "away_id": 2483
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Troy",
+//    "away_points": null,
+//    "home_team": "Kansas State",
+//    "home_points": null,
+//    "id": 401525829,
+//    "home_id": 2306,
+//    "away_id": 2653
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Nicholls",
+//    "away_points": null,
+//    "home_team": "TCU",
+//    "home_points": null,
+//    "id": 401525832,
+//    "home_id": 2628,
+//    "away_id": 2447
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Duquesne",
+//    "away_points": null,
+//    "home_team": "West Virginia",
+//    "home_points": null,
+//    "id": 401525833,
+//    "home_id": 277,
+//    "away_id": 2184
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Utah",
+//    "away_points": null,
+//    "home_team": "Baylor",
+//    "home_points": null,
+//    "id": 401523999,
+//    "home_id": 239,
+//    "away_id": 254
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "SMU",
+//    "away_points": null,
+//    "home_team": "Oklahoma",
+//    "home_points": null,
+//    "id": 401525830,
+//    "home_id": 201,
+//    "away_id": 2567
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Oklahoma State",
+//    "away_points": null,
+//    "home_team": "Arizona State",
+//    "home_points": null,
+//    "id": 401523998,
+//    "home_id": 9,
+//    "away_id": 197
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Texas",
+//    "away_points": null,
+//    "home_team": "Alabama",
+//    "home_points": null,
+//    "id": 401520183,
+//    "home_id": 333,
+//    "away_id": 251
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Iowa",
+//    "away_points": null,
+//    "home_team": "Iowa State",
+//    "home_points": null,
+//    "id": 401520194,
+//    "home_id": 66,
+//    "away_id": 2294
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Illinois",
+//    "away_points": null,
+//    "home_team": "Kansas",
+//    "home_points": null,
+//    "id": 401520195,
+//    "home_id": 2305,
+//    "away_id": 356
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "TCU",
+//    "away_points": null,
+//    "home_team": "Houston",
+//    "home_points": null,
+//    "id": 401525836,
+//    "home_id": 248,
+//    "away_id": 2628
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Iowa State",
+//    "away_points": null,
+//    "home_team": "Ohio",
+//    "home_points": null,
+//    "id": 401525838,
+//    "home_id": 195,
+//    "away_id": 66
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Long Island University",
+//    "away_points": null,
+//    "home_team": "Baylor",
+//    "home_points": null,
+//    "id": 401525834,
+//    "home_id": 239,
+//    "away_id": 112358
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "South Alabama",
+//    "away_points": null,
+//    "home_team": "Oklahoma State",
+//    "home_points": null,
+//    "id": 401525839,
+//    "home_id": 197,
+//    "away_id": 6
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Oklahoma",
+//    "away_points": null,
+//    "home_team": "Tulsa",
+//    "home_points": null,
+//    "id": 401525842,
+//    "home_id": 202,
+//    "away_id": 201
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Tarleton State",
+//    "away_points": null,
+//    "home_team": "Texas Tech",
+//    "home_points": null,
+//    "id": 401525841,
+//    "home_id": 2641,
+//    "away_id": 2627
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Wyoming",
+//    "away_points": null,
+//    "home_team": "Texas",
+//    "home_points": null,
+//    "id": 401525840,
+//    "home_id": 251,
+//    "away_id": 2751
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Pittsburgh",
+//    "away_points": null,
+//    "home_team": "West Virginia",
+//    "home_points": null,
+//    "id": 401525503,
+//    "home_id": 277,
+//    "away_id": 221
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Kansas",
+//    "away_points": null,
+//    "home_team": "Nevada",
+//    "home_points": null,
+//    "id": 401525837,
+//    "home_id": 2440,
+//    "away_id": 2305
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Kansas State",
+//    "away_points": null,
+//    "home_team": "Missouri",
+//    "home_points": null,
+//    "id": 401520236,
+//    "home_id": 142,
+//    "away_id": 2306
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Texas Tech",
+//    "away_points": null,
+//    "home_team": "West Virginia",
+//    "home_points": null,
+//    "id": 401525850,
+//    "home_id": 277,
+//    "away_id": 2641
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Oklahoma State",
+//    "away_points": null,
+//    "home_team": "Iowa State",
+//    "home_points": null,
+//    "id": 401525846,
+//    "home_id": 66,
+//    "away_id": 197
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Oklahoma",
+//    "away_points": null,
+//    "home_team": "Cincinnati",
+//    "home_points": null,
+//    "id": 401525845,
+//    "home_id": 2132,
+//    "away_id": 201
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Texas",
+//    "away_points": null,
+//    "home_team": "Baylor",
+//    "home_points": null,
+//    "id": 401525844,
+//    "home_id": 239,
+//    "away_id": 251
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "BYU",
+//    "away_points": null,
+//    "home_team": "Kansas",
+//    "home_points": null,
+//    "id": 401525847,
+//    "home_id": 2305,
+//    "away_id": 252
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "UCF",
+//    "away_points": null,
+//    "home_team": "Kansas State",
+//    "home_points": null,
+//    "id": 401525848,
+//    "home_id": 2306,
+//    "away_id": 2116
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "SMU",
+//    "away_points": null,
+//    "home_team": "TCU",
+//    "home_points": null,
+//    "id": 401525849,
+//    "home_id": 2628,
+//    "away_id": 2567
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Baylor",
+//    "away_points": null,
+//    "home_team": "UCF",
+//    "home_points": null,
+//    "id": 401525856,
+//    "home_id": 2116,
+//    "away_id": 239
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Houston",
+//    "away_points": null,
+//    "home_team": "Texas Tech",
+//    "home_points": null,
+//    "id": 401525855,
+//    "home_id": 2641,
+//    "away_id": 248
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "West Virginia",
+//    "away_points": null,
+//    "home_team": "TCU",
+//    "home_points": null,
+//    "id": 401525853,
+//    "home_id": 2628,
+//    "away_id": 277
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Kansas",
+//    "away_points": null,
+//    "home_team": "Texas",
+//    "home_points": null,
+//    "id": 401525854,
+//    "home_id": 251,
+//    "away_id": 2305
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Iowa State",
+//    "away_points": null,
+//    "home_team": "Oklahoma",
+//    "home_points": null,
+//    "id": 401525852,
+//    "home_id": 201,
+//    "away_id": 66
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Kansas State",
+//    "away_points": null,
+//    "home_team": "Oklahoma State",
+//    "home_points": null,
+//    "id": 401525857,
+//    "home_id": 197,
+//    "away_id": 2306
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "TCU",
+//    "away_points": null,
+//    "home_team": "Iowa State",
+//    "home_points": null,
+//    "id": 401525859,
+//    "home_id": 66,
+//    "away_id": 2628
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Texas Tech",
+//    "away_points": null,
+//    "home_team": "Baylor",
+//    "home_points": null,
+//    "id": 401525858,
+//    "home_id": 239,
+//    "away_id": 2641
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Texas",
+//    "away_points": null,
+//    "home_team": "Oklahoma",
+//    "home_points": null,
+//    "id": 401525861,
+//    "home_id": 201,
+//    "away_id": 251
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "UCF",
+//    "away_points": null,
+//    "home_team": "Kansas",
+//    "home_points": null,
+//    "id": 401525860,
+//    "home_id": 2305,
+//    "away_id": 2116
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "West Virginia",
+//    "away_points": null,
+//    "home_team": "Houston",
+//    "home_points": null,
+//    "id": 401525862,
+//    "home_id": 248,
+//    "away_id": 277
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "BYU",
+//    "away_points": null,
+//    "home_team": "TCU",
+//    "home_points": null,
+//    "id": 401525865,
+//    "home_id": 2628,
+//    "away_id": 252
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Kansas",
+//    "away_points": null,
+//    "home_team": "Oklahoma State",
+//    "home_points": null,
+//    "id": 401525864,
+//    "home_id": 197,
+//    "away_id": 2305
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Iowa State",
+//    "away_points": null,
+//    "home_team": "Cincinnati",
+//    "home_points": null,
+//    "id": 401525863,
+//    "home_id": 2132,
+//    "away_id": 66
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Kansas State",
+//    "away_points": null,
+//    "home_team": "Texas Tech",
+//    "home_points": null,
+//    "id": 401525866,
+//    "home_id": 2641,
+//    "away_id": 2306
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Baylor",
+//    "away_points": null,
+//    "home_team": "Cincinnati",
+//    "home_points": null,
+//    "id": 401525868,
+//    "home_id": 2132,
+//    "away_id": 239
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Texas Tech",
+//    "away_points": null,
+//    "home_team": "BYU",
+//    "home_points": null,
+//    "id": 401525867,
+//    "home_id": 252,
+//    "away_id": 2641
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "TCU",
+//    "away_points": null,
+//    "home_team": "Kansas State",
+//    "home_points": null,
+//    "id": 401525870,
+//    "home_id": 2306,
+//    "away_id": 2628
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Texas",
+//    "away_points": null,
+//    "home_team": "Houston",
+//    "home_points": null,
+//    "id": 401525869,
+//    "home_id": 248,
+//    "away_id": 251
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "UCF",
+//    "away_points": null,
+//    "home_team": "Oklahoma",
+//    "home_points": null,
+//    "id": 401525871,
+//    "home_id": 201,
+//    "away_id": 2116
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Oklahoma State",
+//    "away_points": null,
+//    "home_team": "West Virginia",
+//    "home_points": null,
+//    "id": 401525872,
+//    "home_id": 277,
+//    "away_id": 197
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Cincinnati",
+//    "away_points": null,
+//    "home_team": "Oklahoma State",
+//    "home_points": null,
+//    "id": 401525876,
+//    "home_id": 197,
+//    "away_id": 2132
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "BYU",
+//    "away_points": null,
+//    "home_team": "Texas",
+//    "home_points": null,
+//    "id": 401525877,
+//    "home_id": 251,
+//    "away_id": 252
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Houston",
+//    "away_points": null,
+//    "home_team": "Kansas State",
+//    "home_points": null,
+//    "id": 401525875,
+//    "home_id": 2306,
+//    "away_id": 248
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "West Virginia",
+//    "away_points": null,
+//    "home_team": "UCF",
+//    "home_points": null,
+//    "id": 401525878,
+//    "home_id": 2116,
+//    "away_id": 277
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Oklahoma",
+//    "away_points": null,
+//    "home_team": "Kansas",
+//    "home_points": null,
+//    "id": 401525874,
+//    "home_id": 2305,
+//    "away_id": 201
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Iowa State",
+//    "away_points": null,
+//    "home_team": "Baylor",
+//    "home_points": null,
+//    "id": 401525873,
+//    "home_id": 239,
+//    "away_id": 66
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "TCU",
+//    "away_points": null,
+//    "home_team": "Texas Tech",
+//    "home_points": null,
+//    "id": 401525879,
+//    "home_id": 2641,
+//    "away_id": 2628
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Oklahoma",
+//    "away_points": null,
+//    "home_team": "Oklahoma State",
+//    "home_points": null,
+//    "id": 401525883,
+//    "home_id": 197,
+//    "away_id": 201
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Houston",
+//    "away_points": null,
+//    "home_team": "Baylor",
+//    "home_points": null,
+//    "id": 401525880,
+//    "home_id": 239,
+//    "away_id": 248
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Kansas",
+//    "away_points": null,
+//    "home_team": "Iowa State",
+//    "home_points": null,
+//    "id": 401525882,
+//    "home_id": 66,
+//    "away_id": 2305
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "BYU",
+//    "away_points": null,
+//    "home_team": "West Virginia",
+//    "home_points": null,
+//    "id": 401525885,
+//    "home_id": 277,
+//    "away_id": 252
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Kansas State",
+//    "away_points": null,
+//    "home_team": "Texas",
+//    "home_points": null,
+//    "id": 401525884,
+//    "home_id": 251,
+//    "away_id": 2306
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "West Virginia",
+//    "away_points": null,
+//    "home_team": "Oklahoma",
+//    "home_points": null,
+//    "id": 401525890,
+//    "home_id": 201,
+//    "away_id": 277
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Texas Tech",
+//    "away_points": null,
+//    "home_team": "Kansas",
+//    "home_points": null,
+//    "id": 401525888,
+//    "home_id": 2305,
+//    "away_id": 2641
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Oklahoma State",
+//    "away_points": null,
+//    "home_team": "UCF",
+//    "home_points": null,
+//    "id": 401525892,
+//    "home_id": 2116,
+//    "away_id": 197
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Baylor",
+//    "away_points": null,
+//    "home_team": "Kansas State",
+//    "home_points": null,
+//    "id": 401525889,
+//    "home_id": 2306,
+//    "away_id": 239
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Iowa State",
+//    "away_points": null,
+//    "home_team": "BYU",
+//    "home_points": null,
+//    "id": 401525886,
+//    "home_id": 252,
+//    "away_id": 66
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Texas",
+//    "away_points": null,
+//    "home_team": "TCU",
+//    "home_points": null,
+//    "id": 401525891,
+//    "home_id": 2628,
+//    "away_id": 251
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Oklahoma",
+//    "away_points": null,
+//    "home_team": "BYU",
+//    "home_points": null,
+//    "id": 401525893,
+//    "home_id": 252,
+//    "away_id": 201
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Texas",
+//    "away_points": null,
+//    "home_team": "Iowa State",
+//    "home_points": null,
+//    "id": 401525895,
+//    "home_id": 66,
+//    "away_id": 251
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "UCF",
+//    "away_points": null,
+//    "home_team": "Texas Tech",
+//    "home_points": null,
+//    "id": 401525898,
+//    "home_id": 2641,
+//    "away_id": 2116
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Oklahoma State",
+//    "away_points": null,
+//    "home_team": "Houston",
+//    "home_points": null,
+//    "id": 401525894,
+//    "home_id": 248,
+//    "away_id": 197
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Cincinnati",
+//    "away_points": null,
+//    "home_team": "West Virginia",
+//    "home_points": null,
+//    "id": 401525899,
+//    "home_id": 277,
+//    "away_id": 2132
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Baylor",
+//    "away_points": null,
+//    "home_team": "TCU",
+//    "home_points": null,
+//    "id": 401525897,
+//    "home_id": 2628,
+//    "away_id": 239
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Kansas State",
+//    "away_points": null,
+//    "home_team": "Kansas",
+//    "home_points": null,
+//    "id": 401525896,
+//    "home_id": 2305,
+//    "away_id": 2306
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "TCU",
+//    "away_points": null,
+//    "home_team": "Oklahoma",
+//    "home_points": null,
+//    "id": 401525900,
+//    "home_id": 201,
+//    "away_id": 2628
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Texas Tech",
+//    "away_points": null,
+//    "home_team": "Texas",
+//    "home_points": null,
+//    "id": 401525901,
+//    "home_id": 251,
+//    "away_id": 2641
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Iowa State",
+//    "away_points": null,
+//    "home_team": "Kansas State",
+//    "home_points": null,
+//    "id": 401525904,
+//    "home_id": 2306,
+//    "away_id": 66
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "Kansas",
+//    "away_points": null,
+//    "home_team": "Cincinnati",
+//    "home_points": null,
+//    "id": 401525903,
+//    "home_id": 2132,
+//    "away_id": 2305
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "West Virginia",
+//    "away_points": null,
+//    "home_team": "Baylor",
+//    "home_points": null,
+//    "id": 401525902,
+//    "home_id": 239,
+//    "away_id": 277
+//  },
+//  {
+//    "season": 2023,
+//    "away_team": "BYU",
+//    "away_points": null,
+//    "home_team": "Oklahoma State",
+//    "home_points": null,
+//    "id": 401525905,
+//    "home_id": 197,
+//    "away_id": 252
+//  }
+// ]
