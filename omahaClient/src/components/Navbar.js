@@ -1,15 +1,32 @@
 import React from 'react';
 import '../styles/NavbarStyles.css'
+import { Link } from "react-router-dom";
 
 function Navbar() {
     return (
       <div>
       <nav className="orange darken-2" role="navigation">
         <div className="nav-wrapper container">
-          <a href="#" className="brand-logo">Big 12 Scoragami</a>
+          <a href="/" className="brand-logo">Big 12 Scoragami</a>
           <ul className="right hide-on-med-and-down">
-            <li><a href="faq.html">How to use</a></li>
-            <li><a href="faq.html">FAQ</a></li>
+
+
+            <li>
+              <Link to='/faq'>How to use</Link>
+              </li>
+            <li>
+              <Link to='/faq'> FAQ</Link>
+            </li>
+
+            <li>
+              <Link to='/login'>Login</Link>
+            </li>
+          
+
+
+
+{/* 
+            
             <li>
               <ul id="nav-mobile" className="sidenav">
                 <li><a href="#">Navbar Link</a></li>
@@ -33,7 +50,7 @@ function Navbar() {
                 </li>
               </ul>
               <a href="#" data-target="nav-mobile" className="sidenav-trigger"><i className="material-icons">menu</i></a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>
