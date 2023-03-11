@@ -1,10 +1,18 @@
-import OmahaContainer from '../src/components/OmahaContainer';
+import React from 'react';
+import Navbar from './components/Navbar';
+import Section from './components/Section';
+import ScoreTable from './components/ScoreTable';
 
-export default function App() {
+
+function App() {
+
   return (
-   
-    <OmahaContainer />
-
- 
-  )
+    <> 
+    <Navbar />
+    <Section />
+    <ScoreTable />
+    </>
+  );
 }
+
+export default App;
