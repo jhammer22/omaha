@@ -1,13 +1,13 @@
 const db = require('../config/connection');
 const { Game } = require('../models');
-const games = require('./games.json');
+const gameData = require('./games.json');
 
 db.once('open', async () => {
-  await Game.insertOne({});
+  const games = await Game.insertMany(gameData);
 
-  const home_points = await Game.insertMany(scoreData);
-  const away_points = await Game.insertMany(scoreData)
-})
+  console.log('*****Game data has been seeded*********');
+  process.exit(0);
+});
 
 
 // need to grab home and away scores from db for each game map over scores and sort high and low number then asign values to corresponding table id
