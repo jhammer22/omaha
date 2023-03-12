@@ -1,0 +1,152 @@
+body{
+	font-family: sans-serif;
+}
+
+.black {
+	background-color: black;
+	color: white;
+}
+
+.green{
+	background-color: green;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+}
+
+.colorblind .green{
+	background-color: indigo;
+}
+
+.green.later{
+	background-color: white !important;
+	cursor: default;
+}
+
+.green.red{
+	background-color: red;
+}
+
+.colorblind .green.red{
+	background-color: limegreen;
+}
+
+.green.later .count{
+	display:none;
+}
+
+.hover.over{
+	background-color: rgba(187, 187, 187, 0.60);
+}
+
+.hover.adjhover, .hover.adjhover{
+	background-color: rgba(187, 187, 187, 0.30) /*#AAAAAA*/; 
+}
+
+.hover.selected{
+    box-shadow:0px 0px 0px 3px magenta inset;
+}
+
+th.adjhover{
+	background-color:yellow;
+	font-size:12px;
+	color:black;
+}
+
+.count, .hover{
+	width: 100%;
+	height: 100%;
+}
+
+td a{
+	color: white;
+}
+
+th, td{
+	min-width: 15px;
+	width: 15px;
+	height: 12px;
+	line-height:12px;
+	padding: 0;
+	margin: 0;
+
+	-webkit-touch-callout: none; /* iOS Safari */		
+	-webkit-user-select: none; /* Safari */		
+	-khtml-user-select: none; /* Konqueror HTML */		
+	-moz-user-select: none; /* Firefox */		
+	-ms-user-select: none; /* Internet Explorer/Edge */		
+	user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+th{
+	font-size: 11px;
+}
+
+td{
+	font-size: 8px;
+}
+
+td.axisLabel{
+	font-size: 13px;
+	text-align: center;
+	font-weight: bold;
+}
+
+td#vAxisLabel{
+	padding-top: 12px;
+    writing-mode: tb-rl;
+    white-space: nowrap;
+    font: bold;
+
+}
+
+td#vAxisLabel{
+	padding-top: 12px;
+    writing-mode: tb-rl;
+    white-space: nowrap;
+    font: bold;
+    
+}
+
+
+.vertical{
+	white-space: nowrap;
+	writing-mode: tb-rl;
+}
+
+
+
+table{
+	border-collapse: collapse;
+}
+
+#scoreTable{
+	margin: auto;
+}
+
+.hueSpectrum{
+	text-align:center;
+	font-size: 15px;
+	padding: 5px;
+	height: 20px;
+	line-height: 20px;
+	min-width: 700px;
+}
+
+.hueSpectrum div{
+	float:left;
+	padding: 1px;
+	font-weight: bold;
+}
+
+.hueColor{
+	margin: auto;
+	padding: 0;
+	width: 3px;
+	height: 20px;
+	display:inline-block;
+}
+
+#tableContainer{
+	text-align:center;
+}
