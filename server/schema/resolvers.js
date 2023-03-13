@@ -1,5 +1,5 @@
 const { AuthenticationError } = require('apollo-server-express');
-const { User } = require('../models');
+const { User, Game } = require('../models');
 const { signToken } = require('../utils/auth');
 
 const resolvers = {
@@ -23,7 +23,17 @@ const resolvers = {
       }
       throw new AuthenticationError('You need to be logged in!');
     },
+    games: async () => {
+      return Game.find();
+    },
+    game: async (parent, {gameId}) => {
+      return Game.findOne({_id: gameId}).populate('home_points', 'away_points')
+    }
+   
   },
+  // Query: {
+    
+  // },
 
   Mutation: {
     addUser: async (parent, { username, email, password }) => {
