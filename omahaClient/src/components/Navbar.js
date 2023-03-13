@@ -7,13 +7,8 @@ function Navbar() {
       <div>
       <nav className="orange darken-2" role="navigation">
         <div className="nav-wrapper container">
-          <a href="/" className="brand-logo">Big 12 Scoragami</a>
+          <a href="/home" className="brand-logo">Big 12 Scoragami</a>
           <ul className="right hide-on-med-and-down">
-
-
-            <li>
-              <Link to='/faq'>How to use</Link>
-              </li>
             <li>
               <Link to='/faq'> FAQ</Link>
             </li>
@@ -21,10 +16,7 @@ function Navbar() {
             <li>
               <Link to='/login'>Login</Link>
             </li>
-          
-
-
-
+        
 {/* 
             
             <li>
