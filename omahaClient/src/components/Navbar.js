@@ -1,8 +1,13 @@
 import React from 'react';
 import '../styles/NavbarStyles.css'
 import { Link } from "react-router-dom";
+import Auth from '../utils/auth';
 
-function Navbar() {
+const Navbar = () => {
+  const logout = (event) => {
+    event.preventDefault();
+    Auth.logout();
+  };
     return (
       <div>
       <nav className="orange darken-2" role="navigation">
@@ -12,8 +17,40 @@ function Navbar() {
             <li>
               <Link to='/faq'> FAQ</Link>
             </li>
+            {/* <li>
+            <Link  to="/login"> Login
+              </Link>
+            </li> */}
 
             <li>
+
+            <div>
+            {Auth.loggedIn() ? (
+            <>
+              <Link className="btn btn-lg btn-info m-2" to="/me">
+                {Auth.getProfile().data.username}'s profile
+              </Link>
+              <button className="btn btn-lg btn-light m-2" onClick={logout}>
+                Logout
+              </button>
+            </>
+          ) : (
+            <>
+              <Link  to="/login">
+                Login
+              </Link>
+              <Link className="btn btn-lg btn-light m-2" to="/signup">
+                Signup
+              </Link>
+            </>
+          )}
+
+               </div>
+               </li>
+          
+
+
+
               <Link to='/login'>Login</Link>
             </li>
         
@@ -44,6 +81,7 @@ function Navbar() {
               <a href="#" data-target="nav-mobile" className="sidenav-trigger"><i className="material-icons">menu</i></a>
             </li> */}
           </ul>
+            
         </div>
       </nav>
 
