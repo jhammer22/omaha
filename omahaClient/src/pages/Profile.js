@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navigate, useParams } from 'react-router-dom';
+import { Navigate, useParams, Link } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
 
 
@@ -15,24 +15,24 @@ const Profile = () => {
     variables: { username: userParam },
   });
 
-  const user = data?.me || data?.user || {};
-  // navigate to personal profile page if username is yours
-  if (Auth.loggedIn() && Auth.getProfile().data.username === userParam) {
-    return <Navigate to="/profile" />;
-  }
+//   const user = data?.me || data?.user || {};
+//   // navigate to personal profile page if username is yours
+//   if (Auth.loggedIn() && Auth.getProfile().data.username === userParam) {
+//     return <Navigate to="/profile" />;
+//   }
 
   if (loading) {
     return <div>Loading...</div>;
   }
 
-//   if (!user?.username) {
-//     return (
-//       <h4>
-//         You need to be logged in to see this. Use the navigation links above to
-//         sign up or log in!
-//       </h4>
-//     );
-//   }
+  if (!user?.username) {
+    return (
+      <h4>
+        You need to be logged in to see this. Use the navigation links above to
+        sign up or log in!
+      </h4>
+    );
+  }
 
   return (
     <div className="section no-pad-bot" id="index-banner">
@@ -40,7 +40,7 @@ const Profile = () => {
         <br /><br />
         <h1 className="header center orange-text">College Football</h1>
         <h2 className="col-12 col-md-10 bg-dark text-light p-3 mb-5">
-  {/* Viewing {userParam ? `${user.username}'s` : 'your'} profile. */}
+  Viewing {userParam ? `${user.username}'s` : 'your'} profile.
 </h2>
         <div className="row center">
             <h5 className="header col s12 light">Have you ever wanted to know if a score has happened since 1999? <br /><br /> Checkout the chart below</h5>
