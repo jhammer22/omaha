@@ -12,13 +12,8 @@ const Navbar = () => {
       <div>
       <nav className="orange darken-2" role="navigation">
         <div className="nav-wrapper container">
-          <a href="/" className="brand-logo">Big 12 Scoragami</a>
+          <a href="/home" className="brand-logo">Big 12 Scoragami</a>
           <ul className="right hide-on-med-and-down">
-
-
-            <li>
-              <Link to='/faq'>How to use</Link>
-              </li>
             <li>
               <Link to='/faq'> FAQ</Link>
             </li>
@@ -28,33 +23,9 @@ const Navbar = () => {
             </li> */}
 
             <li>
-            <div>
-            {Auth.loggedIn() ? (
-            <>
-              <Link className="btn btn-lg btn-info m-2" to="/me">
-                {Auth.getProfile().data.username}'s profile
-              </Link>
-              <button className="btn btn-lg btn-light m-2" onClick={logout}>
-                Logout
-              </button>
-            </>
-          ) : (
-            <>
-              <Link  to="/login">
-                Login
-              </Link>
-              <Link className="btn btn-lg btn-light m-2" to="/signup">
-                Signup
-              </Link>
-            </>
-          )}
-
-               </div>
-               </li>
-          
-
-
-
+              <Link to='/login'>Login</Link>
+            </li>
+        
 {/* 
             
             <li>
