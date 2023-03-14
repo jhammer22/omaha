@@ -10,7 +10,7 @@ import Home from './pages/Home';
 import Faq from './pages/Faq';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
-import Profile from './pages/Profile';
+// import Profile from './pages/Profile';
 
 
 const client = new ApolloClient({
