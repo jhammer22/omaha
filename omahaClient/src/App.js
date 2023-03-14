@@ -14,7 +14,7 @@ import Profile from './pages/Profile';
 
 
 const client = new ApolloClient({
-  uri: '/graphql',
+  uri: 'http://localhost:3001/graphql',
   cache: new InMemoryCache(),
 });
 
