@@ -1,5 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
+
 // Comopnents Section
 import Navbar from './components/Navbar';
 
@@ -9,10 +11,18 @@ import Faq from './pages/Faq';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 
+
+const client = new ApolloClient({
+  uri: '/graphql',
+  cache: new InMemoryCache(),
+});
+
+
 function App() {
 
   return (
     <>
+    <ApolloProvider client={client}>
    <Router>
     <Navbar />
     <Switch>
@@ -22,6 +32,7 @@ function App() {
       <Route path="/signup" component={Signup} />
     </Switch>
    </Router>
+   </ApolloProvider>
     </>
   );
 }
