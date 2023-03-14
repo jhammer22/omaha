@@ -15,7 +15,7 @@ const Navbar = () => {
           <a href="/home" className="brand-logo">Big 12 Scoragami</a>
           <ul className="right hide-on-med-and-down">
             <li>
-              <Link to='/faq'> FAQ</Link>
+              <Link className="btn btn-lg waves-light btn- m-2" to='/faq'> FAQ</Link>
             </li>
             {/* <li>
             <Link  to="/login"> Login
@@ -24,7 +24,7 @@ const Navbar = () => {
 
             <li>
 
-            <div>
+           
             {Auth.loggedIn() ? (
             <>
               <Link className="btn btn-lg btn-info m-2" to="/me">
@@ -36,23 +36,22 @@ const Navbar = () => {
             </>
           ) : (
             <>
-              <Link  to="/login">
+            <li>
+              <Link className="btn btn-lg waves-light btn- m-2" to="/login">
                 Login
               </Link>
+              </li>
+              <li>
               <Link className="btn btn-lg btn-light m-2" to="/signup">
                 Signup
               </Link>
+              </li>
             </>
           )}
 
-               </div>
+              
                </li>
-          
-
-
-
-              <Link to='/login'>Login</Link>
-            </li>
+        
         
 {/* 
             
