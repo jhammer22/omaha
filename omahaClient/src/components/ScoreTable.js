@@ -1,9 +1,20 @@
 import React from 'react';
 import '../styles/ScoreTableStyles.css'
+// import { QUERY_GAMES } from '../utils/queries';
+// import { useQuery } from '@apollo/client'
+import seedData from '../utils/games.json';
 
-function ScoreTable() {
+// function ScoreTable() {
+//   const homeWins = seedData.filter((game) => {
+//     return game.home_points > game.away_points
+//   });
+//   console.log(homeWins);
+  
+  // get graphql working first
 
+  // for loop to cycle thru game data and get home and away score if home > away set home to column and away to row else set away to column and home to row
 
+  
   return (
 
     <main>
