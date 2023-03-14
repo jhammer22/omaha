@@ -23,9 +23,39 @@ const Navbar = () => {
             </li> */}
 
             <li>
+{/* <<<<<<< HEAD
+            <div>
+            {Auth.loggedIn() ? (
+            <>
+              <Link className="btn btn-lg btn-info m-2" to="/me">
+                {Auth.getProfile().data.username}'s profile
+              </Link>
+              <button className="btn btn-lg btn-light m-2" onClick={logout}>
+                Logout
+              </button>
+            </>
+          ) : (
+            <>
+              <Link  to="/login">
+                Login
+              </Link>
+              <Link className="btn btn-lg btn-light m-2" to="/signup">
+                Signup
+              </Link>
+            </>
+          )}
+
+               </div>
+               </li>
+          
+
+
+
+======= */}
               <Link to='/login'>Login</Link>
             </li>
         
+{/* >>>>>>> c320b3e (Consolidated into Home page and minior cleanup) */}
 {/* 
             
             <li>
