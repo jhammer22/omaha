@@ -11,7 +11,7 @@ import Homeex from './pages/Homeex';
 import Faq from './pages/Faq';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
-// import Profile from './pages/Profile';
+import Profile from './pages/Profile';
 
 
 const client = new ApolloClient({
@@ -32,9 +32,7 @@ function App() {
       <Route path="/faq" component={Faq} />
       <Route path="/login" component={Login} />
       <Route path="/signup" component={Signup} />
-      <Route path="/home" component={Homeex} />
-      <Route path="/" component={Homeex} />
-     
+      <Route path="/profile" component={Profile} />
     </Switch>
    </Router>
    </ApolloProvider>
