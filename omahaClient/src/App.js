@@ -31,7 +31,7 @@ function App() {
       <Route path="/faq" component={Faq} />
       <Route path="/login" component={Login} />
       <Route path="/signup" component={Signup} />
-      <Route path="/me" element={<Profile />} />
+      <Route path="/profile" element={Profile} />
     </Switch>
    </Router>
    </ApolloProvider>
