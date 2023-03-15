@@ -16,8 +16,44 @@ function Home() {
                 </div>
                 <br /><br />
 
+                {/* <div id='hueSpectrumLogarithmicColorblind' class='inner-wrapper hueSpectrum hidden'>   
+                <div id='hueSpectrumLogarithmicLabelMinCount'>1</div>   
+                <div id="hueSpectrumLogarithmicColors">{hueSpectrumLogarithmicColorblindColors}</div>  
+                 <div id='hueSpectrumLogarithmicLabelMaxCount'>{hueSpectrumLogarithmicColorblindLabelMaxCount}</div> 
+                 </div> */}
+
+                {/* <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
+                </div> */}
 
 
+                        <div class="switch">
+                            <label>
+                            Off
+                            <input type="checkbox" />
+                            <span class="lever"></span>
+                            On
+                            </label>
+                        </div>
+
+                        <div class="switch">
+                            <label>
+                            Off
+                            <input type="checkbox" />
+                            <span class="lever"></span>
+                            On
+                            </label>
+                        </div>
+
+                        <div class="switch">
+                            <label>
+                            Off
+                            <input type="checkbox" />
+                            <span class="lever"></span>
+                            On
+                            </label>
+                        </div>
 
 
                 <div className="tabledisplay" >

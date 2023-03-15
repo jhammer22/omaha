@@ -1,0 +1,47 @@
+/* class's used */
+  
+  /* faqheader */
+  /* howtoheader */
+  /* innerheader */
+  /* innerpar */
+
+  /* * {
+
+    box-sizing: border-box;
+    font-family: arial;
+    
+} */
+/* 
+body {
+
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-image: url('./assets/big12logo.png');
+    background-position: center;
+    background-size: 30%;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+  
+} */
+
+
+.bgimage {
+    background-color: #BF5700;
+}
+
+.faqcontainer {
+ 
+  border-style: solid;
+  border-color: #333f48;
+  background-color: #ffffff;
+  color: #BF5700;
+  border-width: 3px;
+  border-radius: 10px;
+  padding: 50px;
+  margin: 25px;
+
+}
