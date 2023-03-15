@@ -36,6 +36,8 @@ const Profile = () => {
   }
 
   return (
+
+    
     <div className="section no-pad-bot" id="index-banner">
     <div className="container">
         <br /><br />
