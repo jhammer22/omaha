@@ -1,31 +1,47 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
+
+// Comopnents Section
 import Navbar from './components/Navbar';
-import Section from './components/Section';
-import ScoreTable from './components/ScoreTable';
+
+//// Pages Section
+import Home from './pages/Home';
+import Homeex from './pages/Homeex';
 import Faq from './pages/Faq';
-import Login from './pages/Login'
+import Login from './pages/Login';
+import Signup from './pages/Signup';
+import Profile from './pages/Profile';
+
+
+const client = new ApolloClient({
+  uri: 'http://localhost:3001/graphql',
+  cache: new InMemoryCache(),
+});
 
 
 function App() {
 
   return (
     <>
+    <ApolloProvider client={client}>
    <Router>
-
- 
     <Navbar />
-    
     <Switch>
+      <Route path="/profile" component={Home} />
       <Route path="/faq" component={Faq} />
       <Route path="/login" component={Login} />
+      <Route path="/signup" component={Signup} />
+      <Route path="/home" component={Homeex} />
+      <Route path="/" component={Homeex} />
+     
     </Switch>
    </Router>
-    
-    <Section />
-    <ScoreTable />
+   </ApolloProvider>
     </>
   );
 }
 
 export default App;
+
+{/* <Route path="/profile" element={Profile} /> */}

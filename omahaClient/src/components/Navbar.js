@@ -1,30 +1,58 @@
 import React from 'react';
 import '../styles/NavbarStyles.css'
 import { Link } from "react-router-dom";
+import Auth from '../utils/auth';
 
-function Navbar() {
+const Navbar = () => {
+  const logout = (event) => {
+    event.preventDefault();
+    Auth.logout();
+  };
     return (
       <div>
       <nav className="orange darken-2" role="navigation">
         <div className="nav-wrapper container">
-          <a href="/" className="brand-logo">Big 12 Scoragami</a>
+          <a href="/home" className="brand-logo">Big 12 Scoragami</a>
           <ul className="right hide-on-med-and-down">
-
+            <li>
+              <Link className="btn btn-lg waves-light btn- m-2" to='/faq'> FAQ</Link>
+            </li>
+            {/* <li>
+            <Link  to="/login"> Login
+              </Link>
+            </li> */}
 
             <li>
-              <Link to='/faq'>How to use</Link>
+
+           
+            {Auth.loggedIn() ? (
+            <>
+              <Link className="btn btn-lg btn-info m-2" to="/home">
+                {Auth.getProfile().data.username}'s profile
+              </Link>
+              <button className="btn btn-lg btn-light m-2" onClick={logout}>
+                Logout
+              </button>
+            </>
+          ) : (
+            <>
+            <li>
+              <Link className="btn btn-lg waves-light btn- m-2" to="/login">
+                Login
+              </Link>
               </li>
-            <li>
-              <Link to='/faq'> FAQ</Link>
-            </li>
+              <li>
+              <Link className="btn btn-lg btn-light m-2" to="/signup">
+                Signup
+              </Link>
+              </li>
+            </>
+          )}
 
-            <li>
-              <Link to='/login'>Login</Link>
-            </li>
-          
-
-
-
+              
+               </li>
+        
+        
 {/* 
             
             <li>
@@ -52,6 +80,7 @@ function Navbar() {
               <a href="#" data-target="nav-mobile" className="sidenav-trigger"><i className="material-icons">menu</i></a>
             </li> */}
           </ul>
+            
         </div>
       </nav>
 
