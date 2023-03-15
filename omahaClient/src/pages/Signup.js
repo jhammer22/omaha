@@ -44,12 +44,12 @@ const Signup = () => {
         <div className="card">
           <h4 className="card-header bg-dark text-light p-2">Sign Up</h4>
           <div className="card-body">
-            {/* {data ? (
+           {data ? (
               <p>
                 Success! You may now head{' '}
-                <Link to=""/profile">back to the homepage.</Link>
+                <Link to="/home">back to the homepage.</Link>
               </p>
-            ) : ( */}
+            ) : ( 
               <form onSubmit={handleFormSubmit}>
                 <input
                   className="form-input"
@@ -83,13 +83,13 @@ const Signup = () => {
                   Submit
                 </button>
               </form>
-            {/* )} */}
+           )} 
 
-            {/* {error && (
+           {error && (
               <div className="my-3 p-3 bg-danger text-white">
                 {error.message}
               </div>
-            )} */}
+            )} 
           </div>
         </div>
       </div>
