@@ -58,3 +58,14 @@ export const QUERY_ME = gql`
     }
   }
 `;
+
+
+export const QUERY_GAMES = gql`
+query QueryGames{
+  
+  games {
+    away_points
+    home_points
+  }
+}
+`;
