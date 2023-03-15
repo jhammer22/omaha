@@ -3,22 +3,35 @@ import { Navigate, useParams, Link } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
 import '../styles/ScoreTableStyles.css';
 
-// import ThoughtForm from '../components/ThoughtForm';
-// import ThoughtList from '../components/ThoughtList';
 
-import { QUERY_USER, QUERY_ME } from '../utils/queries';
+
+import { QUERY_USER, QUERY_ME, QUERY_GAMES } from '../utils/queries';
 
 import Auth from '../utils/auth';
 
 const Profile = () => {
   const { username: userParam } = useParams();
 
-  const { loading, data } = useQuery(userParam ? QUERY_USER : QUERY_ME, {
-    variables: { username: userParam },
-  });
+//   const { loading, data } = useQuery(userParam ? QUERY_USER : QUERY_ME, {
+//     variables: { username: userParam },
+//   });
+console.log('hello')
+  const { loading: gamesLoading, data: gamesData } = useQuery(QUERY_GAMES)
+  console.log(gamesData);
+//   console.log(data)
+
+
+//   const user = data?.me || data?.user || {};
+  // navigate to personal profile page if username is yours
+//   if (Auth.loggedIn() && Auth.getProfile().data.username === userParam) {
+//     return <Navigate to="/profile" />;
+//   }
+useEffect(() => {scoreTable()});
+  if (gamesLoading) {
 
   const user = data?.me || data?.user || {};
   // navigate to personal profile page if username is yours
+
   if (Auth.loggedIn() && Auth.getProfile().data.username === userParam) {
     return <Link to="/profile"> </Link>;
     
@@ -36,6 +49,32 @@ const Profile = () => {
       </h4>
     );
   }
+
+
+function scoreTable() {
+    const scores = gamesData?.games.filter((game) => {
+        // let homeScores = game.home_points;
+        // let awayScores = game.away_points;
+        // console.log(homeScores);
+        // console.log(awayScores);
+        // for (let i = 0; i < game.length; i++) {
+            let appendVal  
+            console.log(game);
+            if (game.home_points > game.away_points) {
+                appendVal = 'r' + game.away_points + '-c' + game.home_points
+                console.log(appendVal)
+                document.getElementById(appendVal)?.setAttribute("style", "background-color: #BF5700");
+                
+            } else if (game.home_points < game.away_points) {
+                appendVal = 'r' + game.home_points + '-c' + game.away_points
+                document.getElementById(appendVal)?.setAttribute("style", "background-color: #BF5700");
+            }
+        // } //return game;
+    })
+   
+    console.log(scores);
+  };
+  
 
   return (
 
