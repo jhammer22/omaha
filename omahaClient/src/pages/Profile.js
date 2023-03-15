@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navigate, useParams, Link } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
+import '../styles/ScoreTableStyles.css';
 
 // import ThoughtForm from '../components/ThoughtForm';
 // import ThoughtList from '../components/ThoughtList';
@@ -19,7 +20,8 @@ const Profile = () => {
   const user = data?.me || data?.user || {};
   // navigate to personal profile page if username is yours
   if (Auth.loggedIn() && Auth.getProfile().data.username === userParam) {
-    return <Link to="/profile"> </Link>
+    return <Link to="/profile"> </Link>;
+    
   }
 
   if (loading) {
