@@ -32,7 +32,9 @@ function App() {
       <Route path="/faq" component={Faq} />
       <Route path="/login" component={Login} />
       <Route path="/signup" component={Signup} />
+
       <Route path="/profile" component={Profile} />
+
     </Switch>
    </Router>
    </ApolloProvider>

@@ -1,6 +1,7 @@
 import React from 'react';
-import { Navigate, useParams } from 'react-router-dom';
+import { Navigate, useParams, Link } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
+import '../styles/ScoreTableStyles.css';
 
 
 
@@ -19,6 +20,7 @@ console.log('hello')
   console.log(gamesData);
 //   console.log(data)
 
+
 //   const user = data?.me || data?.user || {};
   // navigate to personal profile page if username is yours
 //   if (Auth.loggedIn() && Auth.getProfile().data.username === userParam) {
@@ -26,6 +28,10 @@ console.log('hello')
 //   }
 useEffect(() => {scoreTable()});
   if (gamesLoading) {
+
+  const user = data?.me || data?.user || {};
+  // navigate to personal profile page if username is yours
+
   if (Auth.loggedIn() && Auth.getProfile().data.username === userParam) {
     return <Link to="/profile"> </Link>;
     
@@ -35,14 +41,14 @@ useEffect(() => {scoreTable()});
     return <div>Loading...</div>;
   }
 
-//   if (!user?.username) {
-//     return (
-//       <h4>
-//         You need to be logged in to see this. Use the navigation links above to
-//         sign up or log in!
-//       </h4>
-//     );
-//   }
+  if (!user?.username) {
+    return (
+      <h4>
+        You need to be logged in to see this. Use the navigation links above to
+        sign up or log in!
+      </h4>
+    );
+  }
 
 
 function scoreTable() {
@@ -71,6 +77,8 @@ function scoreTable() {
   
 
   return (
+
+    
     <div className="section no-pad-bot" id="index-banner">
     <div className="container">
         <br /><br />
