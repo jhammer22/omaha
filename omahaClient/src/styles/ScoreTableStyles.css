@@ -110,6 +110,7 @@ tr:hover {
 }
 .tabledisplay {
 	position: relative;
+	margin-bottom: 3rem;
 }
 td:not(#hAxisLabel, #vAxisLabel, [style$="00"]):hover {
 	background-color: #FFC966 !important;
@@ -205,6 +206,7 @@ table{
 
 .faqHeader {
 	font-size: .3rem;
+	line-height: 1.7em;
 
 }
 
