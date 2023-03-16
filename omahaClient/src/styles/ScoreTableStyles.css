@@ -85,6 +85,8 @@ th, td{
 	line-height:12px;
 	padding: 0;
 	margin: 0;
+	text-align: center;
+	
 
 	position: relative;
 
@@ -136,6 +138,7 @@ th{
 
 td{
 	font-size: 8px;
+	border-radius: 0px;
 }
 
 td.axisLabel{
