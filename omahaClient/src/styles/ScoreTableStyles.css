@@ -118,6 +118,10 @@ td {
 	font-size: small;
 } */
 
+#download-button {
+	margin: 6rem;
+}
+
 
 
 td a {
