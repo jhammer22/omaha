@@ -97,18 +97,18 @@ const Profile = () => {
 
 
 
-                <div className="tabledisplay" >
-                    <span id="inline-words">Winning Team Score</span>
-                    <span className='vertical'>Losing Team Score</span>
-                    <table id="score-table" className="score-table">
-                        <tbody>
-                            <tr>
-
-                                {/* <td id="vAxisLabel"> */}
-                                {/* </td> */}
-                            </tr>
-                            {/* Insert winning and losing team */}
-                            <tr id="column" className="column">
+        <div className="tabledisplay" >
+        <span id="inline-words">Winning Team Score</span>
+        {/* <span className='vertical'>Losing Team Score</span> */}
+            <table id="score-table" className="score-table">
+                <tbody>
+                    <tr>
+                        
+                        {/* <td id="vAxisLabel"> */}
+                        {/* </td> */}
+                    </tr>
+                    {/* Insert winning and losing team */}
+                    <tr id="column" className="column">
 
                                 <th id="columnheader-0" className="">0</th>
                                 <th id="columnheader-1" className="">1</th>
