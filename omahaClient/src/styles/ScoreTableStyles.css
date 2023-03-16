@@ -80,10 +80,12 @@ th, td{
 
 th{
 	font-size: 11px;
+	
 }
 
 td{
 	font-size: 8px;
+	border-radius: 0px;
 }
 
 td.axisLabel{
