@@ -11,6 +11,7 @@ function Homeex() {
                 <div className="container">
                 <br /><br />
                 <h1 className="header center orange-text title-logo-header">The Big 12 Conference College Football</h1>
+                
                 <div className="row center">
                 <h2 className="faqHeader">Welcome to Scororama - the ultimate tool for exploring the rich history of Big 12 football like never before! Have you ever wondered about the frequency of specific scores in Big 12 or NFL games? Scororama round 2 is here to answer all your questions. Our unique application tracks every score in every Big 12 game, identifying the elusive "Scoragami" scores that have occurred only once.
                 <br></br>
