@@ -1,0 +1,7 @@
+/* } adding light and dark mode toggle */
+#light{
+  background-color: #f3ebf6;
+}
+#dark{
+  background-color: #46046e; /* }later add color blind mode */
+}

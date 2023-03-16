@@ -137,7 +137,9 @@ td {
   .materialize-red-text.text-darken-4 {
     color: #8b1014 !important;
   }
-  
+  .materialize-cb-text.text-darken-4 {
+    color: #8b1014 !important;
+  }
   .red {
     background-color: #F44336 !important;
   }
