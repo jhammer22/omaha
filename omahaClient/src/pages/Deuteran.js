@@ -1,13 +1,20 @@
 import React, { useState, useEffect } from "react";
-import ColorblindSwitch from "./ColorBlindSwitch";
+import ColorblindSwitch from "../components/ColorBlindSwitch";
+import ScoreTable from "./Deuteranomly_master";
+
 function DataTable() {
-    const headerArray = [0,1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  //const headerArray = [0,1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 const [preferedColor, setColor] = useState("normal")
 console.log(preferedColor)
 // const handleColorChange = (color) => setColor(color)
 const handleColorChange = (color) => setColor(color);
-    return (
+  return (
+
+
+
+        
         <div>
+            
 <ColorblindSwitch preferedColor={preferedColor} handleColorChange= {handleColorChange} />
         
         <table>
@@ -15,7 +22,7 @@ const handleColorChange = (color) => setColor(color);
                 <tr>
 
 
-                    {headerArray.map(col => {
+                    {ScoreTable(col => {
                         return <th key ={col} id ={`columnheader-${col}`}className ={preferedColor}>{col}</th>
                     })}
                 </tr>

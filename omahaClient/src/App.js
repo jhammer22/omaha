@@ -12,6 +12,11 @@ import Faq from './pages/Faq';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Profile from './pages/Profile';
+import Profile1 from './pages/Profile1';
+import Table from './components/DataTable';
+import CbG from './pages/Deuteranopia';
+import CbRG from './pages/Deuteranomly_master';
+import CbR from './components/DataTable';
 
 
 const client = new ApolloClient({
@@ -28,13 +33,19 @@ function App() {
    <Router>
     <Navbar />
     <Switch>
+    <Route path="/profile1" component={Profile1} />
     <Route path="/profile" component={Profile} />
+    <Route path="/cbrg" component={CbRG}/>
+    <Route path="/cbg" component={CbG}/>
+    <Route path="/cbr" component={CbR}/>
       <Route path="/home" component={Homeex}/>
       <Route path="/faq" component={Faq} />
       <Route path="/login" component={Login} />
       <Route path="/signup" component={Signup} />
       <Route path="/" component={Homeex}/>
-
+      <Route path="/table" component={Table}/>
+      
+            
    
     </Switch>
    </Router>
