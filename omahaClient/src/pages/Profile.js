@@ -1,12 +1,11 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Navigate, useParams, Link } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
 import '../styles/ScoreTableStyles.css';
 
-// import ThoughtForm from '../components/ThoughtForm';
-// import ThoughtList from '../components/ThoughtList';
 
-import { QUERY_USER, QUERY_ME } from '../utils/queries';
+
+import { QUERY_USER, QUERY_ME, QUERY_GAMES } from '../utils/queries';
 
 import Auth from '../utils/auth';
 
@@ -17,25 +16,64 @@ const Profile = () => {
     variables: { username: userParam },
   });
 
+  const { loading: gamesLoading, data: gamesData } = useQuery(QUERY_GAMES)
+  console.log(gamesData);
+
+  console.log(data)
+
+
+useEffect(() => {scoreTable()});
+
+    
   const user = data?.me || data?.user || {};
   // navigate to personal profile page if username is yours
+
   if (Auth.loggedIn() && Auth.getProfile().data.username === userParam) {
     return <Link to="/profile"> </Link>;
     
   }
 
-  if (loading) {
+  if (gamesLoading) {
     return <div>Loading...</div>;
   }
 
-  if (!user?.username) {
-    return (
-      <h4>
-        You need to be logged in to see this. Use the navigation links above to
-        sign up or log in!
-      </h4>
-    );
-  }
+//   if (!user?.username) {
+//     return (
+//       <h4>
+//         You need to be logged in to see this. Use the navigation links above to
+//         sign up or log in!
+//       </h4>
+//     );
+//   }
+
+
+function scoreTable() {
+    const scores = gamesData?.games.filter((game) => {
+
+            let appendVal  
+        
+            if (game.home_points > game.away_points) {
+                appendVal = 'r' + game.away_points + '-c' + game.home_points
+               
+                const Cell = document.getElementById(appendVal)
+
+               Cell?.setAttribute("style", "background-color: #BF5700");
+               Cell?.classList.remove("hidden");
+
+                
+            } else if (game.home_points < game.away_points) {
+                appendVal = 'r' + game.home_points + '-c' + game.away_points
+                const Cell = document.getElementById(appendVal)
+
+               Cell?.setAttribute("style", "background-color: #BF5700");
+               Cell?.classList.remove("hidden");
+            }
+ 
+    })
+   
+    console.log(scores);
+  };
+  
 
   return (
 
@@ -4734,5 +4772,6 @@ const Profile = () => {
 </div>
   );
 };
+//  }
 
-export default Profile;
+export default Profile

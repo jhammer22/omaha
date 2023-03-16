@@ -17,17 +17,13 @@ const Navbar = () => {
             <li>
               <Link className="btn btn-lg waves-light btn- m-2" to='/faq'> FAQ</Link>
             </li>
-            {/* <li>
-            <Link  to="/login"> Login
-              </Link>
-            </li> */}
 
             <li>
 
            
             {Auth.loggedIn() ? (
             <>
-              <Link className="btn btn-lg btn-info m-2" to="/home">
+              <Link className="btn btn-lg btn-info m-2" to="/profile">
                 {Auth.getProfile().data.username}'s profile
               </Link>
               <button className="btn btn-lg btn-light m-2" onClick={logout}>
@@ -52,33 +48,6 @@ const Navbar = () => {
               
                </li>
         
-        
-{/* 
-            
-            <li>
-              <ul id="nav-mobile" className="sidenav">
-                <li><a href="#">Navbar Link</a></li>
-                <li>
-                  <div className="darken-2">
-                    <i className="material-icons">question_answer</i>
-                    <span className="flow-text">FAQ</span>
-                  </div>
-                </li>
-                <li>
-                  <div className="orange darken-2">
-                    <i className="material-icons">question_answer</i>
-                    <span className="flow-text">Color blind</span>
-                  </div>
-                </li>
-                <li>
-                  <div className="orange darken-2">
-                    <i className="material-icons">question_answer</i>
-                    <span className="flow-text">How does it work</span>
-                  </div>
-                </li>
-              </ul>
-              <a href="#" data-target="nav-mobile" className="sidenav-trigger"><i className="material-icons">menu</i></a>
-            </li> */}
           </ul>
             
         </div>

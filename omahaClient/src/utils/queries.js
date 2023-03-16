@@ -44,17 +44,23 @@ export const QUERY_SINGLE_THOUGHT = gql`
 `;
 
 export const QUERY_ME = gql`
-  query me {
-    me {
-      _id
-      username
-      email
-      thoughts {
-        _id
-        thoughtText
-        thoughtAuthor
-        createdAt
-      }
-    }
+query Query {
+  me {
+    _id
+    username
+    email
+    password
   }
+}
+`;
+
+
+export const QUERY_GAMES = gql`
+query QueryGames{
+  
+  games {
+    away_points
+    home_points
+  }
+}
 `;

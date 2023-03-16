@@ -28,13 +28,14 @@ function App() {
    <Router>
     <Navbar />
     <Switch>
-      <Route path="/profile" component={Home} />
+    <Route path="/profile" component={Profile} />
+      <Route path="/home" component={Homeex}/>
       <Route path="/faq" component={Faq} />
       <Route path="/login" component={Login} />
       <Route path="/signup" component={Signup} />
-      <Route path="/home" component={Homeex} />
-      <Route path="/" component={Homeex} />
-     
+      <Route path="/" component={Homeex}/>
+
+   
     </Switch>
    </Router>
    </ApolloProvider>
