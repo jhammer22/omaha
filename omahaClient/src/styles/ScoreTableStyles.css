@@ -70,12 +70,57 @@ th, td{
 	padding: 0;
 	margin: 0;
 
+	position: relative;
+
 	-webkit-touch-callout: none; /* iOS Safari */		
 	-webkit-user-select: none; /* Safari */		
 	-khtml-user-select: none; /* Konqueror HTML */		
 	-moz-user-select: none; /* Firefox */		
 	-ms-user-select: none; /* Internet Explorer/Edge */		
 	user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+td a{
+	color: white;
+}
+
+
+tr:hover {
+	background-color: #FFE6B3;
+}
+.tabledisplay {
+	position: relative;
+}
+td:not(#hAxisLabel, #vAxisLabel, [style$="00"]):hover {
+	background-color: #FFC966 !important;
+}
+
+td[style$="00"]:hover {
+	background-color: #FFB533 !important;
+}
+
+td:not(#hAxisLabel, #vAxisLabel):hover::after, 
+th:hover::after {
+  content: "";
+  position: absolute;
+  background-color: #FFE6B3;
+  left: 0;
+  top: -5000px;
+  height: 10000px;
+  width: 100%;
+  z-index: -1;
 }
 
 th{
@@ -92,6 +137,8 @@ td.axisLabel{
 	font-weight: bold;
 }
 
+
+
 td#vAxisLabel{
 	padding-top: 12px;
     writing-mode: tb-rl;
@@ -100,13 +147,6 @@ td#vAxisLabel{
 
 }
 
-td#vAxisLabel{
-	padding-top: 12px;
-    writing-mode: tb-rl;
-    white-space: nowrap;
-    font: bold;
-    
-}
 
 
 .vertical{
@@ -118,6 +158,7 @@ td#vAxisLabel{
 
 table{
 	border-collapse: collapse;
+	overflow: hidden;
 }
 
 #scoreTable{
