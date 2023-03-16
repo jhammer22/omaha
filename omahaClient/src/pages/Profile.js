@@ -87,7 +87,7 @@ const Profile = () => {
                 </h2> */}
                 <div className="row center">
                     <h5 className="header col s12 light">Have you ever wanted to know if a score has happened since 1999? <br /><br /> Checkout the chart below</h5>
-                </div>f
+                </div>
 
                 <br />
 
@@ -98,7 +98,8 @@ const Profile = () => {
 
 
                         <p class="innerPar">The winning team's score is along the top (horizontal axis) and the losing team's score is along the right (vertical axis). Scores marked in Burnt Orange have happened, scores in white have not yet happened and scores in black are impossible. You can find out more information by clicking on a cell. Why is a score impossible? Watch the video below to have the inventor of Scorigami himself explain it to you.</p>
-
+                    </div>
+                    </div>
 
 
 
@@ -4916,7 +4917,7 @@ const Profile = () => {
 
             
     );
-};
-//  }
+}
+
 
 export default Profile
