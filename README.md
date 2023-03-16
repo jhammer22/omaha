@@ -37,10 +37,11 @@ Leister Marvin Maynard : https://github.com/lmmay0 \
 Ryan Damron: https://github.com/RyanDamron 
 
 
-Version 1 of Scoragami Project credits -
+Version 1 of Scoragami Project credits:
+
 Jeffrey Hammer: https://github.com/jhammer22 \
 Leister Marvin Maynard : https://github.com/lmmay0 \
-Kyle Hipple: https://github.com/KlyDesign
+Kyle Hipple: https://github.com/KlyDesign \
 Joel John: https://github.com/jo3kr
 
 
