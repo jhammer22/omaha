@@ -4,6 +4,7 @@ import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 
 // Comopnents Section
 import Navbar from './components/Navbar';
+// import Footer from './components/Footer';
 
 //// Pages Section
 import Home from './pages/Home';
@@ -34,9 +35,8 @@ function App() {
       <Route path="/login" component={Login} />
       <Route path="/signup" component={Signup} />
       <Route path="/" component={Homeex}/>
-
-   
     </Switch>
+    {/* <Footer /> */}
    </Router>
    </ApolloProvider>
     </>
