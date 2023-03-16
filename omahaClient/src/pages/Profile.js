@@ -183,6 +183,7 @@ function scoreTable() {
                         <th id="columnheader-69" className="">69</th>
                         <th id="columnheader-70" className="">70</th>
                         <th id="columnheader-70" className="">71</th>
+                        <th id="columnheader-70" className="">72</th>
                     </tr>
                     {/* start rows here */}
                     <tr id="row-0" className-="row-0">
@@ -258,7 +259,10 @@ function scoreTable() {
                         <td id="r0-c69" className="hidden">0</td>
                         <td id="r0-c70" className="hidden">0</td>
                         <td id="r0-c71" className="hidden">0</td>
-                        <th id="r0-c72" className="hidden">0</th>
+                        <td id="r0-c72" className="hidden">0</td>
+                        <td id="r0-c73" className="hidden">0</td>
+                        <th id="r0-c74" className="hidden">0</th>
+                        <th id="r0-c74" className="hidden">L</th>
                     </tr>
 
                     <tr id="row-1" className="row-1">
@@ -334,7 +338,10 @@ function scoreTable() {
                         <td id="r1-c69" className="hidden">1</td>
                         <td id="r1-c70" className="hidden">1</td>
                         <td id="r1-c71" className="hidden">1</td>
-                        <th id="r1-c72" className="hidden">1</th>
+                        <td id="r1-c72" className="hidden">1</td>
+                        <td id="r1-c73" className="hidden">1</td>
+                        <th id="r1-c74" className="hidden">1</th>
+                        <th id="r1-c74" className="hidden">O</th>
                     </tr>
                     <tr id="row-2" className="row-2">
                         <td id="r2-c0" className="black"></td>
@@ -409,7 +416,10 @@ function scoreTable() {
                         <td id="r2-c69" className="hidden">2</td>
                         <td id="r2-c70" className="hidden">2</td>
                         <td id="r2-c71" className="hidden">2</td>
-                        <th id="r2-c72" className="hidden">2</th>
+                        <td id="r2-c72" className="hidden">2</td>
+                        <td id="r2-c73" className="hidden">2</td>
+                        <th id="r2-c74" className="hidden">2</th>
+                        <th id="r2-c74" className="hidden">S</th>
                     </tr>
                     <tr id="row-3" className="row-3">
                         <td id="r3-c0" className="black"></td>
@@ -484,7 +494,10 @@ function scoreTable() {
                         <td id="r3-c69" className="hidden">3</td>
                         <td id="r3-c70" className="hidden">3</td>
                         <td id="r3-c71" className="hidden">3</td>
-                        <th id="r3-c72" className="hidden">3</th>
+                        <td id="r3-c72" className="hidden">3</td>
+                        <td id="r3-c73" className="hidden">3</td>
+                        <th id="r3-c74" className="hidden">3</th>
+                        <th id="r3-c75" className="hidden">I</th>
                     </tr>
                     <tr id="row-4" className="row-4">
                         <td id="r4-c0" className="black"></td>
@@ -559,7 +572,10 @@ function scoreTable() {
                         <td id="r4-c69" className="hidden">4</td>
                         <td id="r4-c70" className="hidden">4</td>
                         <td id="r4-c71" className="hidden">4</td>
-                        <th id="r4-c72" className="hidden">4</th>
+                        <td id="r4-c72" className="hidden">4</td>
+                        <td id="r4-c73" className="hidden">4</td>
+                        <th id="r4-c74" className="hidden">4</th>
+                        <th id="r4-c75" className="hidden">N</th>
                     </tr>
                     <tr id="row-5" className="row-5">
                         <td id="r5-c0" className="black"></td>
@@ -634,7 +650,10 @@ function scoreTable() {
                         <td id="r5-c69" className="hidden">5</td>
                         <td id="r5-c70" className="hidden">5</td>
                         <td id="r5-c71" className="hidden">5</td>
-                        <th id="r5-c72" className="hidden">5</th>
+                        <td id="r5-c72" className="hidden">5</td>
+                        <td id="r5-c73" className="hidden">5</td>
+                        <th id="r5-c74" className="hidden">5</th>
+                        <th id="r5-c75" className="hidden">G</th>
                     </tr>
                     <tr id="row-6" className="row-6">
                         <td id="r6-c0" className="black"></td>
@@ -709,7 +728,9 @@ function scoreTable() {
                         <td id="r6-c69" className="hidden">6</td>
                         <td id="r6-c70" className="hidden">6</td>
                         <td id="r6-c71" className="hidden">6</td>
-                        <th id="r6-c72" className="hidden">6</th>
+                        <td id="r6-c72" className="hidden">6</td>
+                        <td id="r6-c73" className="hidden">6</td>
+                        <th id="r6-c74" className="hidden">6</th>
                     </tr>
                     <tr id="row-7" className="row-7">
                         <td id="r7-c0" className="black"></td>
@@ -784,7 +805,10 @@ function scoreTable() {
                         <td id="r7-c69" className="hidden">7</td>
                         <td id="r7-c70" className="hidden">7</td>
                         <td id="r7-c71" className="hidden">7</td>
-                        <th id="r7-c72" className="hidden">7</th>
+                        <td id="r7-c72" className="hidden">7</td>
+                        <td id="r7-c73" className="hidden">7</td>
+                        <th id="r7-c74" className="hidden">7</th>
+                        {/* <th id="r7-c75" className="hidden">T</th> */}
                     </tr>
                     <tr id="row-8" className="row-8">
                         <td id="r8-c0" className="black"></td>
@@ -859,7 +883,10 @@ function scoreTable() {
                         <td id="r8-c69" className="hidden">8</td>
                         <td id="r8-c70" className="hidden">8</td>
                         <td id="r8-c71" className="hidden">8</td>
-                        <th id="r8-c72" className="hidden">8</th>
+                        <td id="r8-c72" className="hidden">8</td>
+                        <td id="r8-c73" className="hidden">8</td>
+                        <th id="r8-c74" className="hidden">8</th>
+                        <th id="r8-c74" className="hidden">T</th>
                     </tr>
                     <tr id="row-9" className="row-9">
                         <td id="r9-c0" className="black"></td>
@@ -934,7 +961,10 @@ function scoreTable() {
                         <td id="r9-c69" className="hidden">9</td>
                         <td id="r9-c70" className="hidden">9</td>
                         <td id="r9-c71" className="hidden">9</td>
-                        <th id="r9-c72" className="hidden">9</th>
+                        <td id="r9-c72" className="hidden">9</td>
+                        <td id="r9-c73" className="hidden">9</td>
+                        <th id="r9-c74" className="hidden">9</th>
+                        <th id="r9-c74" className="hidden">E</th>
                     </tr>
                     <tr id="row-10" className="row-10">
                         <td id="r10-c0" className="black"></td>
@@ -1009,7 +1039,10 @@ function scoreTable() {
                         <td id="r10-c69" className="hidden">10</td>
                         <td id="r10-c70" className="hidden">10</td>
                         <td id="r10-c71" className="hidden">10</td>
-                        <th id="r10-c72" className="hidden">10</th>
+                        <td id="r10-c72" className="hidden">10</td>
+                        <td id="r10-c73" className="hidden">10</td>
+                        <th id="r10-c74" className="hidden">10</th>
+                        <th id="r10-c74" className="hidden">A</th>
                     </tr>
                     <tr id="row-11" className="row-11">
                         <td id="r11-c0" className="black"></td>
@@ -1084,7 +1117,10 @@ function scoreTable() {
                         <td id="r11-c69" className="hidden">11</td>
                         <td id="r11-c70" className="hidden">11</td>
                         <td id="r11-c71" className="hidden">11</td>
-                        <th id="r11-c72" className="hidden">11</th>
+                        <td id="r11-c72" className="hidden">11</td>
+                        <td id="r11-c73" className="hidden">11</td>
+                        <th id="r11-c74" className="hidden">11</th>
+                        <th id="r11-c74" className="hidden">M</th>
                     </tr>
                     <tr id="row-12" className="row-12">
                         <td id="r12-c0" className="black"></td>
@@ -1159,7 +1195,9 @@ function scoreTable() {
                         <td id="r12-c69" className="hidden">12</td>
                         <td id="r12-c70" className="hidden">12</td>
                         <td id="r12-c71" className="hidden">12</td>
-                        <th id="r12-c72" className="hidden">12</th>
+                        <td id="r12-c72" className="hidden">12</td>
+                        <td id="r12-c73" className="hidden">12</td>
+                        <th id="r12-c74" className="hidden">12</th>
                     </tr>
                     <tr id="row-13" className="row-13">
                         <td id="r13-c0" className="black"></td>
@@ -1234,7 +1272,9 @@ function scoreTable() {
                         <td id="r13-c69" className="hidden">13</td>
                         <td id="r13-c70" className="hidden">13</td>
                         <td id="r13-c71" className="hidden">13</td>
-                        <th id="r13-c72" className="hidden">13</th>
+                        <td id="r13-c72" className="hidden">13</td>
+                        <td id="r13-c73" className="hidden">13</td>
+                        <th id="r13-c74" className="hidden">13</th>
                     </tr>
                     <tr id="row-14" className="row-14">
                         <td id="r14-c0" className="black"></td>
@@ -1309,7 +1349,9 @@ function scoreTable() {
                         <td id="r14-c69" className="hidden">14</td>
                         <td id="r14-c70" className="hidden">14</td>
                         <td id="r14-c71" className="hidden">14</td>
-                        <th id="r14-c72" className="hidden">14</th>
+                        <td id="r14-c72" className="hidden">14</td>
+                        <td id="r14-c73" className="hidden">14</td>
+                        <th id="r14-c74" className="hidden">14</th>
                     </tr>
                     <tr id="row-15" className="row-15">
                         <td id="r15-c0" className="black"></td>
@@ -1384,7 +1426,9 @@ function scoreTable() {
                         <td id="r15-c69" className="hidden">15</td>
                         <td id="r15-c70" className="hidden">15</td>
                         <td id="r15-c71" className="hidden">15</td>
-                        <th id="r15-c72" className="hidden">15</th>
+                        <td id="r15-c72" className="hidden">15</td>
+                        <td id="r15-c73" className="hidden">15</td>
+                        <th id="r15-c74" className="hidden">15</th>
                     </tr>
                     <tr id="row-16" className="row-16">
                         <td id="r16-c0" className="black"></td>
@@ -1459,7 +1503,9 @@ function scoreTable() {
                         <td id="r16-c69" className="hidden">16</td>
                         <td id="r16-c70" className="hidden">16</td>
                         <td id="r16-c71" className="hidden">16</td>
-                        <th id="r16-c72" className="hidden">16</th>
+                        <td id="r16-c72" className="hidden">16</td>
+                        <td id="r16-c73" className="hidden">16</td>
+                        <th id="r16-c74" className="hidden">16</th>
                     </tr>
                     <tr id="row-17" className="row-17">
                         <td id="r17-c0" className="black"></td>
@@ -1534,7 +1580,9 @@ function scoreTable() {
                         <td id="r17-c69" className="hidden">17</td>
                         <td id="r17-c70" className="hidden">17</td>
                         <td id="r17-c71" className="hidden">17</td>
-                        <th id="r17-c72" className="hidden">17</th>
+                        <td id="r17-c72" className="hidden">17</td>
+                        <td id="r17-c73" className="hidden">17</td>
+                        <th id="r17-c74" className="hidden">17</th>
                     </tr>
                     <tr id="row-18" className="row-18">
                         <td id="r18-c0" className="black"></td>
@@ -1609,7 +1657,9 @@ function scoreTable() {
                         <td id="r18-c69" className="hidden">18</td>
                         <td id="r18-c70" className="hidden">18</td>
                         <td id="r18-c71" className="hidden">18</td>
-                        <th id="r18-c72" className="hidden">18</th>
+                        <td id="r18-c72" className="hidden">18</td>
+                        <td id="r18-c73" className="hidden">18</td>
+                        <th id="r18-c74" className="hidden">18</th>
                     </tr>
                     <tr id="row-19" className="row-19">
                         <td id="r19-c0" className="black"></td>
@@ -1684,7 +1734,9 @@ function scoreTable() {
                         <td id="r19-c69" className="hidden">19</td>
                         <td id="r19-c70" className="hidden">19</td>
                         <td id="r19-c71" className="hidden">19</td>
-                        <th id="r19-c72" className="hidden">19</th>
+                        <td id="r19-c72" className="hidden">19</td>
+                        <td id="r19-c73" className="hidden">19</td>
+                        <th id="r19-c74" className="hidden">19</th>
                     </tr>
                     <tr id="row-20" className="row-20">
                         <td id="r20-c0" className="black"></td>
@@ -1759,7 +1811,9 @@ function scoreTable() {
                         <td id="r20-c69" className="hidden">20</td>
                         <td id="r20-c70" className="hidden">20</td>
                         <td id="r20-c71" className="hidden">20</td>
-                        <th id="r20-c72" className="hidden">20</th>
+                        <td id="r20-c72" className="hidden">20</td>
+                        <td id="r20-c73" className="hidden">20</td>
+                        <th id="r20-c74" className="hidden">20</th>
                     </tr>
                     <tr id="row-21" className="row-21">
                         <td id="r21-c0" className="black"></td>
@@ -1834,7 +1888,9 @@ function scoreTable() {
                         <td id="r21-c69" className="hidden">21</td>
                         <td id="r21-c70" className="hidden">21</td>
                         <td id="r21-c71" className="hidden">21</td>
-                        <th id="r21-c72" className="hidden">21</th>
+                        <td id="r21-c72" className="hidden">21</td>
+                        <td id="r21-c73" className="hidden">21</td>
+                        <th id="r21-c74" className="hidden">21</th>
                     </tr>
                     <tr id="row-22" className="row-22">
                         <td id="r22-c0" className="black"></td>
@@ -1909,7 +1965,9 @@ function scoreTable() {
                         <td id="r22-c69" className="hidden">22</td>
                         <td id="r22-c70" className="hidden">22</td>
                         <td id="r22-c71" className="hidden">22</td>
-                        <th id="r22-c72" className="hidden">22</th>
+                        <td id="r22-c72" className="hidden">22</td>
+                        <td id="r22-c73" className="hidden">22</td>
+                        <th id="r22-c74" className="hidden">22</th>
                     </tr>
                     <tr id="row-23" className="row-23">
                         <td id="r23-c0" className="black"></td>
@@ -1984,7 +2042,9 @@ function scoreTable() {
                         <td id="r23-c69" className="hidden">23</td>
                         <td id="r23-c70" className="hidden">23</td>
                         <td id="r23-c71" className="hidden">23</td>
-                        <th id="r23-c72" className="hidden">23</th>
+                        <td id="r23-c72" className="hidden">23</td>
+                        <td id="r23-c73" className="hidden">23</td>
+                        <th id="r23-c74" className="hidden">23</th>
                     </tr>
                     <tr id="row-24" className="row-24">
                         <td id="r24-c0" className="black"></td>
@@ -2059,7 +2119,9 @@ function scoreTable() {
                         <td id="r24-c69" className="hidden">24</td>
                         <td id="r24-c70" className="hidden">24</td>
                         <td id="r24-c71" className="hidden">24</td>
-                        <th id="r24-c72" className="hidden">24</th>
+                        <td id="r24-c72" className="hidden">24</td>
+                        <td id="r24-c73" className="hidden">24</td>
+                        <th id="r24-c74" className="hidden">24</th>
                     </tr>
                     <tr id="row-25" className="row-25">
                         <td id="r25-c0" className="black"></td>
@@ -2134,7 +2196,9 @@ function scoreTable() {
                         <td id="r25-c69" className="hidden">25</td>
                         <td id="r25-c70" className="hidden">25</td>
                         <td id="r25-c71" className="hidden">25</td>
-                        <th id="r25-c72" className="hidden">25</th>
+                        <td id="r25-c72" className="hidden">25</td>
+                        <td id="r25-c73" className="hidden">25</td>
+                        <th id="r25-c74" className="hidden">25</th>
                     </tr>
                     <tr id="row-26" className="row-26">
                         <td id="r26-c0" className="black"></td>
@@ -2209,7 +2273,9 @@ function scoreTable() {
                         <td id="r26-c69" className="hidden">26</td>
                         <td id="r26-c70" className="hidden">26</td>
                         <td id="r26-c71" className="hidden">26</td>
-                        <th id="r26-c72" className="hidden">26</th>
+                        <td id="r26-c72" className="hidden">26</td>
+                        <td id="r26-c73" className="hidden">26</td>
+                        <th id="r26-c74" className="hidden">26</th>
                     </tr>
                     <tr id="row-27" className="row-27">
                         <td id="r27-c0" className="black"></td>
@@ -2284,7 +2350,9 @@ function scoreTable() {
                         <td id="r27-c69" className="hidden">27</td>
                         <td id="r27-c70" className="hidden">27</td>
                         <td id="r27-c71" className="hidden">27</td>
-                        <th id="r27-c72" className="hidden">27</th>
+                        <td id="r27-c72" className="hidden">27</td>
+                        <td id="r27-c73" className="hidden">27</td>
+                        <th id="r27-c74" className="hidden">27</th>
                     </tr>
                     <tr id="row-28" className="row-28">
                         <td id="r28-c0" className="black"></td>
@@ -2359,7 +2427,9 @@ function scoreTable() {
                         <td id="r28-c69" className="hidden">28</td>
                         <td id="r28-c70" className="hidden">28</td>
                         <td id="r28-c71" className="hidden">28</td>
-                        <th id="r28-c72" className="hidden">28</th>
+                        <td id="r28-c72" className="hidden">28</td>
+                        <td id="r28-c73" className="hidden">28</td>
+                        <th id="r28-c74" className="hidden">28</th>
                     </tr>
                     <tr id="row-29" className="row-29">
                         <td id="r29-c0" className="black"></td>
@@ -2434,7 +2504,9 @@ function scoreTable() {
                         <td id="r29-c69" className="hidden">29</td>
                         <td id="r29-c70" className="hidden">29</td>
                         <td id="r29-c71" className="hidden">29</td>
-                        <th id="r29-c72" className="hidden">29</th>
+                        <td id="r29-c72" className="hidden">29</td>
+                        <td id="r29-c73" className="hidden">29</td>
+                        <th id="r29-c74" className="hidden">29</th>
                     </tr>
                     <tr id="row-30" className="row-30">
                         <td id="r30-c0" className="black"></td>
@@ -2509,7 +2581,9 @@ function scoreTable() {
                         <td id="r30-c69" className="hidden">30</td>
                         <td id="r30-c70" className="hidden">30</td>
                         <td id="r30-c71" className="hidden">30</td>
-                        <th id="r30-c72" className="hidden">30</th>
+                        <td id="r30-c72" className="hidden">30</td>
+                        <td id="r30-c73" className="hidden">30</td>
+                        <th id="r30-c74" className="hidden">30</th>
                     </tr>
                     <tr id="row-31" className="row-31">
                         <td id="r31-c0" className="black"></td>
@@ -2584,7 +2658,9 @@ function scoreTable() {
                         <td id="r31-c69" className="hidden">31</td>
                         <td id="r31-c70" className="hidden">31</td>
                         <td id="r31-c71" className="hidden">31</td>
-                        <th id="r31-c72" className="hidden">31</th>
+                        <td id="r31-c72" className="hidden">31</td>
+                        <td id="r31-c73" className="hidden">31</td>
+                        <th id="r31-c74" className="hidden">31</th>
                     </tr>
                     <tr id="row-32" className="row-32">
                         <td id="r32-c0" className="black"></td>
@@ -2659,7 +2735,9 @@ function scoreTable() {
                         <td id="r32-c69" className="hidden">32</td>
                         <td id="r32-c70" className="hidden">32</td>
                         <td id="r32-c71" className="hidden">32</td>
-                        <th id="r32-c72" className="hidden">32</th>
+                        <td id="r32-c72" className="hidden">32</td>
+                        <td id="r32-c73" className="hidden">32</td>
+                        <th id="r32-c74" className="hidden">32</th>
                     </tr>
                     <tr id="row-33" className="row-33">
                         <td id="r33-c0" className="black"></td>
@@ -2734,7 +2812,9 @@ function scoreTable() {
                         <td id="r33-c69" className="hidden">33</td>
                         <td id="r33-c70" className="hidden">33</td>
                         <td id="r33-c71" className="hidden">33</td>
-                        <th id="r33-c72" className="hidden">33</th>
+                        <td id="r33-c72" className="hidden">33</td>
+                        <td id="r33-c73" className="hidden">33</td>
+                        <th id="r33-c74" className="hidden">33</th>
                     </tr>
                     <tr id="row-34" className="row-34">
                         <td id="r34-c0" className="black"></td>
@@ -2809,7 +2889,9 @@ function scoreTable() {
                         <td id="r34-c69" className="hidden">34</td>
                         <td id="r34-c70" className="hidden">34</td>
                         <td id="r34-c71" className="hidden">34</td>
-                        <th id="r34-c72" className="hidden">34</th>
+                        <td id="r34-c72" className="hidden">34</td>
+                        <td id="r34-c73" className="hidden">34</td>
+                        <th id="r34-c74" className="hidden">34</th>
                     </tr>
                     <tr id="row-35" className="row-35">
                         <td id="r35-c0" className="black"></td>
@@ -2884,7 +2966,9 @@ function scoreTable() {
                         <td id="r35-c69" className="hidden">35</td>
                         <td id="r35-c70" className="hidden">35</td>
                         <td id="r35-c71" className="hidden">35</td>
-                        <th id="r35-c72" className="hidden">35</th>
+                        <td id="r35-c72" className="hidden">35</td>
+                        <td id="r35-c73" className="hidden">35</td>
+                        <th id="r35-c74" className="hidden">35</th>
                     </tr>
                     <tr id="row-36" className="row-36">
                         <td id="r36-c0" className="black"></td>
@@ -2959,7 +3043,9 @@ function scoreTable() {
                         <td id="r36-c69" className="hidden">36</td>
                         <td id="r36-c70" className="hidden">36</td>
                         <td id="r36-c71" className="hidden">36</td>
-                        <th id="r36-c72" className="hidden">36</th>
+                        <td id="r36-c72" className="hidden">36</td>
+                        <td id="r36-c73" className="hidden">36</td>
+                        <th id="r36-c74" className="hidden">36</th>
                     </tr>
                     <tr id="row-37" className="row-37">
                         <td id="r37-c0" className="black"></td>
@@ -3034,7 +3120,9 @@ function scoreTable() {
                         <td id="r37-c69" className="hidden">37</td>
                         <td id="r37-c70" className="hidden">37</td>
                         <td id="r37-c71" className="hidden">37</td>
-                        <th id="r37-c72" className="hidden">37</th>
+                        <td id="r37-c72" className="hidden">37</td>
+                        <td id="r37-c73" className="hidden">37</td>
+                        <th id="r37-c74" className="hidden">37</th>
                     </tr>
                     <tr id="row-38" className="row-38">
                         <td id="r38-c0" className="black"></td>
@@ -3109,7 +3197,9 @@ function scoreTable() {
                         <td id="r38-c69" className="hidden">38</td>
                         <td id="r38-c70" className="hidden">38</td>
                         <td id="r38-c71" className="hidden">38</td>
-                        <th id="r38-c72" className="hidden">38</th>
+                        <td id="r38-c72" className="hidden">38</td>
+                        <td id="r38-c73" className="hidden">38</td>
+                        <th id="r38-c74" className="hidden">38</th>
                     </tr>
                     <tr id="row-39" className="row-39">
                         <td id="r39-c0" className="black"></td>
@@ -3184,7 +3274,9 @@ function scoreTable() {
                         <td id="r39-c69" className="hidden">39</td>
                         <td id="r39-c70" className="hidden">39</td>
                         <td id="r39-c71" className="hidden">39</td>
-                        <th id="r39-c72" className="hidden">39</th>
+                        <td id="r39-c72" className="hidden">39</td>
+                        <td id="r39-c73" className="hidden">39</td>
+                        <th id="r39-c74" className="hidden">39</th>
                     </tr>
                     <tr id="row-40" className="row-40">
                         <td id="r40-c0" className="black"></td>
@@ -3259,7 +3351,9 @@ function scoreTable() {
                         <td id="r40-c69" className="hidden">40</td>
                         <td id="r40-c70" className="hidden">40</td>
                         <td id="r40-c71" className="hidden">40</td>
-                        <th id="r40-c72" className="hidden">40</th>
+                        <td id="r40-c72" className="hidden">40</td>
+                        <td id="r40-c73" className="hidden">40</td>
+                        <th id="r40-c74" className="hidden">40</th>
                     </tr>
                     <tr id="row-41" className="row-41">
                         <td id="r41-c0" className="black"></td>
@@ -3334,7 +3428,9 @@ function scoreTable() {
                         <td id="r41-c69" className="hidden">41</td>
                         <td id="r41-c70" className="hidden">41</td>
                         <td id="r41-c71" className="hidden">41</td>
-                        <th id="r41-c72" className="hidden">41</th>
+                        <td id="r41-c72" className="hidden">41</td>
+                        <td id="r41-c73" className="hidden">41</td>
+                        <th id="r41-c74" className="hidden">41</th>
                     </tr>
                     <tr id="row-42" className="row-42">
                         <td id="r42-c0" className="black"></td>
@@ -3409,7 +3505,9 @@ function scoreTable() {
                         <td id="r42-c69" className="hidden">42</td>
                         <td id="r42-c70" className="hidden">42</td>
                         <td id="r42-c71" className="hidden">42</td>
-                        <th id="r42-c72" className="hidden">42</th>
+                        <td id="r42-c72" className="hidden">42</td>
+                        <td id="r42-c73" className="hidden">42</td>
+                        <th id="r42-c74" className="hidden">42</th>
                     </tr>
                     <tr id="row-43" className="row-43">
                         <td id="r43-c0" className="black"></td>
@@ -3484,7 +3582,9 @@ function scoreTable() {
                         <td id="r43-c69" className="hidden">43</td>
                         <td id="r43-c70" className="hidden">43</td>
                         <td id="r43-c71" className="hidden">43</td>
-                        <th id="r43-c72" className="hidden">43</th>
+                        <td id="r43-c72" className="hidden">43</td>
+                        <td id="r43-c73" className="hidden">43</td>
+                        <th id="r43-c74" className="hidden">43</th>
                     </tr>
                     <tr id="row-44" className="row-44">
                         <td id="r44-c0" className="black"></td>
@@ -3559,7 +3659,9 @@ function scoreTable() {
                         <td id="r44-c69" className="hidden">44</td>
                         <td id="r44-c70" className="hidden">44</td>
                         <td id="r44-c71" className="hidden">44</td>
-                        <th id="r44-c72" className="hidden">44</th>
+                        <td id="r44-c72" className="hidden">44</td>
+                        <td id="r44-c73" className="hidden">44</td>
+                        <th id="r44-c74" className="hidden">44</th>
                     </tr>
                     <tr id="row-45" className="row-45">
                         <td id="r45-c0" className="black"></td>
@@ -3634,7 +3736,9 @@ function scoreTable() {
                         <td id="r45-c69" className="hidden">45</td>
                         <td id="r45-c70" className="hidden">45</td>
                         <td id="r45-c71" className="hidden">45</td>
-                        <th id="r45-c72" className="hidden">45</th>
+                        <td id="r45-c72" className="hidden">45</td>
+                        <td id="r45-c73" className="hidden">45</td>
+                        <th id="r45-c74" className="hidden">45</th>
                     </tr>
                     <tr id="row-46" className="row-46">
                         <td id="r46-c0" className="black"></td>
@@ -3709,7 +3813,9 @@ function scoreTable() {
                         <td id="r46-c69" className="hidden">46</td>
                         <td id="r46-c70" className="hidden">46</td>
                         <td id="r46-c71" className="hidden">46</td>
-                        <th id="r46-c72" className="hidden">46</th>
+                        <td id="r46-c72" className="hidden">46</td>
+                        <td id="r46-c73" className="hidden">46</td>
+                        <th id="r46-c74" className="hidden">46</th>
                     </tr>
                     <tr id="row-47" className="row-47">
                         <td id="r47-c0" className="black"></td>
@@ -3784,7 +3890,9 @@ function scoreTable() {
                         <td id="r47-c69" className="hidden">47</td>
                         <td id="r47-c70" className="hidden">47</td>
                         <td id="r47-c71" className="hidden">47</td>
-                        <th id="r47-c72" className="hidden">47</th>
+                        <td id="r47-c72" className="hidden">47</td>
+                        <td id="r47-c73" className="hidden">47</td>
+                        <th id="r47-c74" className="hidden">47</th>
                     </tr>
                     <tr id="row-48" className="row-48">
                         <td id="r48-c0" className="black"></td>
@@ -3859,7 +3967,9 @@ function scoreTable() {
                         <td id="r48-c69" className="hidden">48</td>
                         <td id="r48-c70" className="hidden">48</td>
                         <td id="r48-c71" className="hidden">48</td>
-                        <th id="r48-c72" className="hidden">48</th>
+                        <td id="r48-c72" className="hidden">48</td>
+                        <td id="r48-c73" className="hidden">48</td>
+                        <th id="r48-c74" className="hidden">48</th>
                     </tr>
                     <tr id="row-49" className="row-49">
                         <td id="r49-c0" className="black"></td>
@@ -3934,7 +4044,9 @@ function scoreTable() {
                         <td id="r49-c69" className="hidden">49</td>
                         <td id="r49-c70" className="hidden">49</td>
                         <td id="r49-c71" className="hidden">49</td>
-                        <th id="r49-c72" className="hidden">49</th>
+                        <td id="r49-c72" className="hidden">49</td>
+                        <td id="r49-c73" className="hidden">49</td>
+                        <th id="r49-c74" className="hidden">49</th>
                     </tr>
                     <tr id="row-50" className="row-50">
                         <td id="r50-c0" className="black"></td>
@@ -4009,7 +4121,9 @@ function scoreTable() {
                         <td id="r50-c69" className="hidden">50</td>
                         <td id="r50-c70" className="hidden">50</td>
                         <td id="r50-c71" className="hidden">50</td>
-                        <th id="r50-c72" className="hidden">50</th>
+                        <td id="r50-c72" className="hidden">50</td>
+                        <td id="r50-c73" className="hidden">50</td>
+                        <th id="r50-c74" className="hidden">50</th>
                     </tr>
                     <tr id="row-51" className="row-51">
                         <td id="r51-c0" className="black"></td>
@@ -4084,7 +4198,9 @@ function scoreTable() {
                         <td id="r51-c69" className="hidden">51</td>
                         <td id="r51-c70" className="hidden">51</td>
                         <td id="r51-c71" className="hidden">51</td>
-                        <th id="r51-c72" className="hidden">51</th>
+                        <td id="r51-c72" className="hidden">51</td>
+                        <td id="r51-c73" className="hidden">51</td>
+                        <th id="r51-c74" className="hidden">51</th>
                     </tr>
                     <tr id="row-52" className="row-52">
                         <td id="r52-c0" className="black"></td>
@@ -4159,7 +4275,9 @@ function scoreTable() {
                         <td id="r52-c69" className="hidden">52</td>
                         <td id="r52-c70" className="hidden">52</td>
                         <td id="r52-c71" className="hidden">52</td>
-                        <th id="r52-c72" className="hidden">52</th>
+                        <td id="r52-c72" className="hidden">52</td>
+                        <td id="r52-c73" className="hidden">52</td>
+                        <th id="r52-c74" className="hidden">52</th>
                     </tr>
                     <tr id="row-53" className="row-53">
                         <td id="r53-c0" className="black"></td>
@@ -4234,7 +4352,9 @@ function scoreTable() {
                         <td id="r53-c69" className="hidden">53</td>
                         <td id="r53-c70" className="hidden">53</td>
                         <td id="r53-c71" className="hidden">53</td>
-                        <th id="r53-c72" className="hidden">53</th>
+                        <td id="r53-c72" className="hidden">53</td>
+                        <td id="r53-c73" className="hidden">53</td>
+                        <th id="r53-c74" className="hidden">53</th>
                     </tr>
                     <tr id="row-54" className="row-54">
                         <td id="r54-c0" className="black"></td>
@@ -4309,7 +4429,9 @@ function scoreTable() {
                         <td id="r54-c69" className="hidden">54</td>
                         <td id="r54-c70" className="hidden">54</td>
                         <td id="r54-c71" className="hidden">54</td>
-                        <th id="r54-c72" className="hidden">54</th>
+                        <td id="r54-c72" className="hidden">54</td>
+                        <td id="r54-c73" className="hidden">54</td>
+                        <th id="r54-c74" className="hidden">54</th>
                     </tr>
                     <tr id="row-55" className="row-55">
                         <td id="r55-c0" className="black"></td>
@@ -4384,7 +4506,9 @@ function scoreTable() {
                         <td id="r55-c69" className="hidden">55</td>
                         <td id="r55-c70" className="hidden">55</td>
                         <td id="r55-c71" className="hidden">55</td>
-                        <th id="r55-c72" className="hidden">55</th>
+                        <td id="r55-c72" className="hidden">55</td>
+                        <td id="r55-c73" className="hidden">55</td>
+                        <th id="r55-c74" className="hidden">55</th>
                     </tr>
                     <tr id="row-56" className="row-56">
                         <td id="r56-c0" className="black"></td>
@@ -4459,7 +4583,9 @@ function scoreTable() {
                         <td id="r56-c69" className="hidden">56</td>
                         <td id="r56-c70" className="hidden">56</td>
                         <td id="r56-c71" className="hidden">56</td>
-                        <th id="r56-c72" className="hidden">56</th>
+                        <td id="r56-c72" className="hidden">56</td>
+                        <td id="r56-c73" className="hidden">56</td>
+                        <th id="r56-c74" className="hidden">56</th>
                     </tr>
                     <tr id="row-57" className="row-57">
                         <td id="r57-c0" className="black"></td>
@@ -4534,7 +4660,9 @@ function scoreTable() {
                         <td id="r57-c69" className="hidden">57</td>
                         <td id="r57-c70" className="hidden">57</td>
                         <td id="r57-c71" className="hidden">57</td>
-                        <th id="r57-c72" className="hidden">57</th>
+                        <td id="r57-c72" className="hidden">57</td>
+                        <td id="r57-c73" className="hidden">57</td>
+                        <th id="r57-c74" className="hidden">57</th>
                     </tr>
                     <tr id="row-58" className="row-58">
                         <td id="r58-c0" className="black"></td>
@@ -4609,7 +4737,9 @@ function scoreTable() {
                         <td id="r58-c69" className="hidden">58</td>
                         <td id="r58-c70" className="hidden">58</td>
                         <td id="r58-c71" className="hidden">58</td>
-                        <th id="r58-c72" className="hidden">58</th>
+                        <td id="r58-c72" className="hidden">58</td>
+                        <td id="r58-c73" className="hidden">58</td>
+                        <th id="r58-c74" className="hidden">58</th>
                     </tr>
                     <tr id="row-59" className="row-59">
                         <td id="r59-c0" className="black"></td>
@@ -4684,7 +4814,9 @@ function scoreTable() {
                         <td id="r59-c69" className="hidden">59</td>
                         <td id="r59-c70" className="hidden">59</td>
                         <td id="r59-c71" className="hidden">59</td>
-                        <th id="r59-c72" className="hidden">59</th>
+                        <td id="r59-c72" className="hidden">59</td>
+                        <td id="r59-c73" className="hidden">59</td>
+                        <th id="r59-c74" className="hidden">59</th>
                     </tr>
                     <tr id="row-60" className="row-60">
                         <td id="r60-c0" className="black"></td>
@@ -4759,7 +4891,9 @@ function scoreTable() {
                         <td id="r60-c69" className="hidden">60</td>
                         <td id="r60-c70" className="hidden">60</td>
                         <td id="r60-c71" className="hidden">60</td>
-                        <th id="r60-c72" className="hidden">60</th>
+                        <td id="r60-c72" className="hidden">60</td>
+                        <td id="r60-c73" className="hidden">60</td>
+                        <th id="r60-c74" className="hidden">60</th>
                     </tr>
 
 
