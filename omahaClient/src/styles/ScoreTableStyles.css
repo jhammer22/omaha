@@ -1,68 +1,74 @@
-body{
+body {
 	font-family: sans-serif;
 }
 
 .black {
-	background-color: black;
+	background-color: black !important;
 	/* color: white; */
 }
 
-.green{
+.green {
 	background-color: green;
 	color: white;
 	text-align: center;
 	cursor: pointer;
 }
 
-.colorblind .green{
+.colorblind .green {
 	background-color: indigo;
 }
 
-.green.later{
+.green.later {
 	background-color: white !important;
 	cursor: default;
 }
 
-.green.red{
+.green.red {
 	background-color: red;
 }
 
-.colorblind .green.red{
+.colorblind .green.red {
 	background-color: limegreen;
 }
 
-.green.later .count{
-	display:none;
+.green.later .count {
+	display: none;
 }
 
 .hidden:over {
 	background-color: rgba(187, 187, 187, 0.60);
 }
 
-.hover.adjhover, .hover.adjhover{
-	background-color: rgba(187, 187, 187, 0.30) /*#AAAAAA*/; 
+.hover.adjhover,
+.hover.adjhover {
+	background-color: rgba(187, 187, 187, 0.30)
+		/*#AAAAAA*/
+	;
 }
 
-.hover.selected{
-    box-shadow:0px 0px 0px 3px magenta inset;
+.hover.selected {
+	box-shadow: 0px 0px 0px 3px magenta inset;
 }
 
-th.adjhover{
-	background-color:yellow;
-	font-size:12px;
-	color:black;
-}
+/* [id^="column"].adjhover {
+	background-color: yellow;
+	font-size: 12px;
+	color: black;
+} */
 
-.count, .hover{
+.count,
+.hover {
 	width: 100%;
 	height: 100%;
 }
+
 #h-axis {
 	/* display: flex;
 	display: inline-block; */
 }
+
 #inline-words {
-	
+
 	display: inline-block;
 	vertical-align: middle;
 	width: 100%;
@@ -74,33 +80,47 @@ td:hover {
 }
 
 
-td a{
+td a {
 	color: white;
 }
 
-th, td{
+th,
+td {
 	min-width: 15px;
 	width: 15px;
 	height: 12px;
-	line-height:12px;
+	line-height: 12px;
 	padding: 0;
 	margin: 0;
 	text-align: center;
-	
+
 
 	position: relative;
 
-	-webkit-touch-callout: none; /* iOS Safari */		
-	-webkit-user-select: none; /* Safari */		
-	-khtml-user-select: none; /* Konqueror HTML */		
-	-moz-user-select: none; /* Firefox */		
-	-ms-user-select: none; /* Internet Explorer/Edge */		
-	user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+	-webkit-touch-callout: none;
+	/* iOS Safari */
+	-webkit-user-select: none;
+	/* Safari */
+	-khtml-user-select: none;
+	/* Konqueror HTML */
+	-moz-user-select: none;
+	/* Firefox */
+	-ms-user-select: none;
+	/* Internet Explorer/Edge */
+	user-select: none;
+	/* Non-prefixed version, currently supported by Chrome and Opera */
 }
 
+/* tr:hover th:not([id^="columnheader"], [id$="75"]) {
+	background-color: yellow;
+	color: black;
+	font-weight: bold;
+	font-size: small;
+} */
 
 
-td a{
+
+td a {
 	color: white;
 }
 
@@ -108,40 +128,47 @@ td a{
 tr:hover {
 	background-color: #FFE6B3;
 }
+
 .tabledisplay {
 	position: relative;
 }
+
 td:not(#hAxisLabel, #vAxisLabel, [style$="00"]):hover {
-	background-color: #FFC966 !important;
+	background-color: #FFC966;
 }
 
 td[style$="00"]:hover {
 	background-color: #FFB533 !important;
 }
 
-td:not(#hAxisLabel, #vAxisLabel):hover::after, 
+.black:hover {
+	background-color: black !important;
+}
+
+td:hover::after,
 th:hover::after {
-  content: "";
-  position: absolute;
-  background-color: #FFE6B3;
-  left: 0;
-  top: -5000px;
-  height: 10000px;
-  width: 100%;
-  z-index: -1;
+	content: "";
+	position: absolute;
+	background-color: #FFE6B3;
+	left: 0;
+	top: -5000px;
+	height: 10000px;
+	width: 100%;
+	z-index: -1;
 }
 
 
-th{
+
+th {
 	font-size: 11px;
 }
 
-td{
+td {
 	font-size: 8px;
 	border-radius: 0px;
 }
 
-td.axisLabel{
+td.axisLabel {
 	font-size: 13px;
 	text-align: center;
 	font-weight: bold;
@@ -149,35 +176,35 @@ td.axisLabel{
 
 
 
-td#vAxisLabel{
+td#vAxisLabel {
 	padding-top: 12px;
-    writing-mode: tb-rl;
-    white-space: nowrap;
-    font: bold;
+	writing-mode: tb-rl;
+	white-space: nowrap;
+	font: bold;
 
 }
 
 
 
-.vertical{
+.vertical {
 	white-space: nowrap;
 	writing-mode: tb-rl;
-	position:absolute;
+	position: absolute;
 }
 
 
 
-table{
+table {
 	border-collapse: collapse;
 	overflow: hidden;
 }
 
-#scoreTable{
+#scoreTable {
 	margin: auto;
 }
 
-.hueSpectrum{
-	text-align:center;
+.hueSpectrum {
+	text-align: center;
 	font-size: 15px;
 	padding: 5px;
 	height: 20px;
@@ -185,22 +212,22 @@ table{
 	min-width: 700px;
 }
 
-.hueSpectrum div{
-	float:left;
+.hueSpectrum div {
+	float: left;
 	padding: 1px;
 	font-weight: bold;
 }
 
-.hueColor{
+.hueColor {
 	margin: auto;
 	padding: 0;
 	width: 3px;
 	height: 20px;
-	display:inline-block;
+	display: inline-block;
 }
 
-#tableContainer{
-	text-align:center;
+#tableContainer {
+	text-align: center;
 }
 
 .faqHeader {
@@ -208,8 +235,7 @@ table{
 
 }
 
-.title-logo-header{
+.title-logo-header {
 	font-size: 4rem;
 	margin-bottom: .5em;
 }
-

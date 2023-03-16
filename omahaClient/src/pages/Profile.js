@@ -110,7 +110,7 @@ function scoreTable() {
                     {/* Insert winning and losing team */}
                     <tr id="column" className="column">
 
-                        <th id="columnheader-0" className="">0</th>
+                        <th id="columnheader-0" className="col-head">0</th>
                         <th id="columnheader-1" className="">1</th>
                         <th id="columnheader-2" className="">2</th>
                         <th id="columnheader-3" className="">3</th>
@@ -262,7 +262,7 @@ function scoreTable() {
                         <td id="r0-c72" className="hidden">0</td>
                         <td id="r0-c73" className="hidden">0</td>
                         <th id="r0-c74" className="hidden">0</th>
-                        <th id="r0-c74" className="hidden">L</th>
+                        <th id="r0-c75" className="hidden">L</th>
                     </tr>
 
                     <tr id="row-1" className="row-1">
@@ -341,7 +341,7 @@ function scoreTable() {
                         <td id="r1-c72" className="hidden">1</td>
                         <td id="r1-c73" className="hidden">1</td>
                         <th id="r1-c74" className="hidden">1</th>
-                        <th id="r1-c74" className="hidden">O</th>
+                        <th id="r1-c75" className="hidden">O</th>
                     </tr>
                     <tr id="row-2" className="row-2">
                         <td id="r2-c0" className="black"></td>
@@ -419,7 +419,7 @@ function scoreTable() {
                         <td id="r2-c72" className="hidden">2</td>
                         <td id="r2-c73" className="hidden">2</td>
                         <th id="r2-c74" className="hidden">2</th>
-                        <th id="r2-c74" className="hidden">S</th>
+                        <th id="r2-c75" className="hidden">S</th>
                     </tr>
                     <tr id="row-3" className="row-3">
                         <td id="r3-c0" className="black"></td>
@@ -886,7 +886,7 @@ function scoreTable() {
                         <td id="r8-c72" className="hidden">8</td>
                         <td id="r8-c73" className="hidden">8</td>
                         <th id="r8-c74" className="hidden">8</th>
-                        <th id="r8-c74" className="hidden">T</th>
+                        <th id="r8-c75" className="hidden">T</th>
                     </tr>
                     <tr id="row-9" className="row-9">
                         <td id="r9-c0" className="black"></td>
@@ -964,7 +964,7 @@ function scoreTable() {
                         <td id="r9-c72" className="hidden">9</td>
                         <td id="r9-c73" className="hidden">9</td>
                         <th id="r9-c74" className="hidden">9</th>
-                        <th id="r9-c74" className="hidden">E</th>
+                        <th id="r9-c75" className="hidden">E</th>
                     </tr>
                     <tr id="row-10" className="row-10">
                         <td id="r10-c0" className="black"></td>
@@ -1042,7 +1042,7 @@ function scoreTable() {
                         <td id="r10-c72" className="hidden">10</td>
                         <td id="r10-c73" className="hidden">10</td>
                         <th id="r10-c74" className="hidden">10</th>
-                        <th id="r10-c74" className="hidden">A</th>
+                        <th id="r10-c75" className="hidden">A</th>
                     </tr>
                     <tr id="row-11" className="row-11">
                         <td id="r11-c0" className="black"></td>
@@ -1120,7 +1120,7 @@ function scoreTable() {
                         <td id="r11-c72" className="hidden">11</td>
                         <td id="r11-c73" className="hidden">11</td>
                         <th id="r11-c74" className="hidden">11</th>
-                        <th id="r11-c74" className="hidden">M</th>
+                        <th id="r11-c75" className="hidden">M</th>
                     </tr>
                     <tr id="row-12" className="row-12">
                         <td id="r12-c0" className="black"></td>
