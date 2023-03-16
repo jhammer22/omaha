@@ -59,7 +59,7 @@ body {
   font-weight: bold;
   align-items: center;
   justify-content: center;
-  font-size: 1.3rem;
+  font-size: 2rem;
 }
 
 .faqHeader-FAQ {
@@ -92,7 +92,7 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 1.5rem;
-
+  line-height: 1.7em;
 }
 
 
