@@ -98,14 +98,14 @@ function scoreTable() {
 
 
         <div className="tabledisplay" >
-
+        <span id="inline-words">Winning Team Score</span>
+        <span className='vertical'>Losing Team Score</span>
             <table id="score-table" className="score-table">
                 <tbody>
                     <tr>
-                        <td id="hAxisLabel">Winning Team Score</td>
-                        <td id="vAxisLabel">
-                            <div className='vertical'>Losing Team Score</div>
-                        </td>
+                        
+                        {/* <td id="vAxisLabel"> */}
+                        {/* </td> */}
                     </tr>
                     {/* Insert winning and losing team */}
                     <tr id="column" className="column">

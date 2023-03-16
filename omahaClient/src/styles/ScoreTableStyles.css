@@ -57,6 +57,16 @@ th.adjhover{
 	width: 100%;
 	height: 100%;
 }
+#h-axis {
+	/* display: flex;
+	display: inline-block; */
+}
+#inline-words {
+	
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+}
 
 td a{
 	color: white;
@@ -152,6 +162,7 @@ td#vAxisLabel{
 .vertical{
 	white-space: nowrap;
 	writing-mode: tb-rl;
+	position:absolute;
 }
 
 
