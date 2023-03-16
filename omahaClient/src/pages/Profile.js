@@ -82,7 +82,7 @@ function scoreTable() {
     <div className="container">
         <br /><br />
         <h1 className="header center orange-text">College Football</h1>
-        <h2 className="col-12 col-md-10 bg-dark text-light p-3 mb-5">
+        <h2 className="col-12 col-md-10 bg-dark text-light text-center p-2 m-2 ">
   Viewing {userParam ? `${user.username}'s` : 'your'} profile.
 </h2>
         <div className="row center">
