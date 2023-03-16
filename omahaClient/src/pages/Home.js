@@ -28,33 +28,39 @@ function Home() {
                 </div> */}
 
 
-                        <div class="switch">
-                            <label>
-                            Off
-                            <input type="checkbox" />
-                            <span class="lever"></span>
-                            On
-                            </label>
-                        </div>
+                <div class="switch">
+                    <label>
+                        Off
+                        <input type="checkbox" />
+                        <span class="lever"></span>
+                        On
+                    </label>
+                </div>
 
-                        <div class="switch">
-                            <label>
-                            Off
-                            <input type="checkbox" />
-                            <span class="lever"></span>
-                            On
-                            </label>
-                        </div>
+                <div class="switch">
+                    <label>
+                        Off
+                        <input type="checkbox" />
+                        <span class="lever"></span>
+                        On
+                    </label>
+                </div>
 
-                        <div class="switch">
-                            <label>
-                            Off
-                            <input type="checkbox" />
-                            <span class="lever"></span>
-                            On
-                            </label>
-                        </div>
+                <div class="switch">
+                    <label>
+                        Off
+                        <input type="checkbox" />
+                        <span class="lever"></span>
+                        On
+                    </label>
+                </div>
 
+                <div class='switch'>
+                    <div id="faq" class="faqContainer">
+
+                        <h2 class="faqHeader ">Frequently Asked Questions</h2>
+                    </div>
+                </div>
 
                 <div className="tabledisplay" >
 

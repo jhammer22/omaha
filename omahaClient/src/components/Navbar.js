@@ -12,7 +12,7 @@ const Navbar = () => {
       <div>
       <nav className="orange darken-2" role="navigation">
         <div className="nav-wrapper container">
-          <a href="/home" className="brand-logo">Big 12 Scoragami</a>
+          <a href="/home" className="brand-logo">SCORORAMA</a>
           <ul className="right hide-on-med-and-down">
             <li>
               <Link className="btn btn-lg waves-light btn- m-2" to='/faq'> FAQ</Link>

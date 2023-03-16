@@ -4382,13 +4382,24 @@ td {
     height: 56px;
     line-height: 56px;
   }
+  nav .brand-logo:hover {
+
+    background-color: #333F48 ;
+    height: 75%;
+    border-radius: 20px;
+    color: white;
+    margin-top: 5px;
+  }
   
   nav .brand-logo {
+    font-family: 'Anton', sans-serif;
     position: absolute;
     color: #fff;
     display: inline-block;
-    font-size: 2.1rem;
+    font-size: 3.1rem;
     padding: 0;
+    text-decoration: none;
+
   }
   
   nav .brand-logo.center {

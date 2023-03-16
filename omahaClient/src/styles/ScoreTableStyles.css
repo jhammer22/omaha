@@ -35,7 +35,7 @@ body{
 	display:none;
 }
 
-.hover.over{
+.hidden:over {
 	background-color: rgba(187, 187, 187, 0.60);
 }
 
@@ -58,6 +58,12 @@ th.adjhover{
 	height: 100%;
 }
 
+
+td:hover {
+	background-color: palevioletred;
+}
+
+
 td a{
 	color: white;
 }
@@ -77,6 +83,7 @@ th, td{
 	-ms-user-select: none; /* Internet Explorer/Edge */		
 	user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
 }
+
 
 th{
 	font-size: 11px;
@@ -150,3 +157,13 @@ table{
 #tableContainer{
 	text-align:center;
 }
+
+.faqHeader {
+	font-size: .3rem;
+
+}
+
+.title-logo-header{
+	font-size: 4rem;
+}
+
